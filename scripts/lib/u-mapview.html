@@ -1,0 +1,127 @@
+<element name="u-mapview" >
+	<template>
+    <style>
+		:host {
+			position: relative;
+			/*
+			border-color: #FF0000;
+			border-style: dashed;
+			*/
+			display: block;
+			height: 100%;
+			width: 100%;
+		}
+	</style>
+	
+	<link rel="stylesheet" href="css\graph-creator.css" />
+	<link rel="stylesheet" href="css\app.css" />
+	
+	<div id="toolbox">
+        <input type="image" id="modelView" title="Model View" src="images\icons\modelview2-icon.png" alt="Model View">
+		<input type="image" id="modelNodeView" title="Node View" src="images\icons\nodeview-icon.png" alt="Node View">
+	</div>
+    
+    <div id="mode-toolbox">
+		<div id="viewMode" class="viewMode-edit" alt="View Mode"></div>
+	</div>
+    
+	<div id="chart">
+        <svg id="clusterview" style="width: 100%; height: 100%; display: none;" />
+        <svg id="mapview" style="width: 100%; height: 100%; display: block;  background-color: #cccccc"/>
+        <svg id="nodeview" style="width: 100%; height: 100%; display: none;" />
+    </div>
+		
+	</template>
+	    
+    <script>
+        (function () {
+
+            var thisControl;
+            var mapviewObject;
+
+            Bosonic.register({
+                
+                createdCallback: function() {
+                    thisControl = this;
+                    //this.ShowMapView();
+                },
+				
+				showMapView: function(root){
+					var Me = this;
+					//$.ajax({
+					//	url: "json/root.json",
+					//	type: 'GET',
+					//	contentType: "application/json; charset=utf-8", 
+					//	dataType: "json",
+					//	async: false,
+					//	success: function (data) {
+					//		var shadowroot = d3.select(Me.shadowRoot);
+					//		var mapviewObject = MapView(window.d3, window.saveAs, window.Blob,  data, shadowroot.select('#mapview'));
+					//		//setViewMode(CONST_MAPVIEW_MODE,0);
+					//	},
+					//	error: function (data) {
+					//		console.log(data);
+					//		alert("failed posted data");
+					//	}
+				    //});
+
+				    //create the mapVieweventHandler object
+				    var mvHandler;
+				    mvHandler = new MapViewEventHandler(thisControl);
+
+					var shadowroot = d3.select(Me.shadowRoot);
+				    mapviewObject = MapView(window.d3, window.saveAs, window.Blob,  root, shadowroot.select('#mapview'), mvHandler);
+				},
+
+				nodeClicked: function (nodeId) {
+				    //raise the nodeClicked event
+				    var nodeClickedEvent = new CustomEvent("nodeClicked", { "detail": { "nodeId": nodeId } });
+				    this.dispatchEvent(nodeClickedEvent);
+				},
+
+				getDirectChildren: function (nodeId) {
+				    //raise the getDirectChildren event
+				    var getDirectChildrenEvent = new CustomEvent("getDirectChildren", { "detail": { "nodeId": nodeId } });
+				    this.dispatchEvent(getDirectChildrenEvent);
+				},
+
+				loadChildren: function (data) {
+				    mapviewObject.getChildren(data);
+				},
+
+				getIndirectLinks: function (nodeId) {
+				    //raise the getIndirectLinks event
+				    var getIndirectLinksEvent = new CustomEvent("getIndirectLinks", { "detail": { "nodeId": nodeId } });
+				    this.dispatchEvent(getIndirectLinksEvent);
+				},
+
+				loadIndirectLinks: function (data, nodeId) {
+                    var node = {};
+				    node["id"] = nodeId;
+                    mapviewObject.getRelated(data, node);
+				},
+
+				nodeColor: function (nodeType) {
+				    //raise the nodeColor event and get the color and return to handler
+				    var nodeColorEvent = new CustomEvent("nodeColor", { "detail": { "nodeType": nodeType, "setColor": ""  } });
+				    this.dispatchEvent(nodeColorEvent);
+				    
+				    return nodeColorEvent.detail.setColor;
+				},
+
+				selectNode: function (nodeId) {
+				    var node = {};
+				    node["id"] = nodeId;
+				    mapviewObject.nodeClickbyId(node);
+				},
+
+				highlightTrackingNodes: function (pathData, traceData) {
+				    mapviewObject.highlightTrackingNodes(pathData, traceData);
+				}
+
+
+
+            });
+        })();
+    </script>
+</element>

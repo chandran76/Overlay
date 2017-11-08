@@ -1,0 +1,396 @@
+<element name="u-ribbon" >
+	<template>
+    <style>
+		
+	</style>
+	
+	<link href="ribbon/css/metro.css" rel="stylesheet">
+    <link href="ribbon/css/metro-icons.css" rel="stylesheet">
+    <link href="ribbon/css/metro-responsive.css" rel="stylesheet">
+    <link href="ribbon/css/metro-schemes.css" rel="stylesheet">
+    <link href="ribbon/css/docs.css" rel="stylesheet">
+	
+	<div class="fluent-menu" data-role="fluentmenu" >
+		<ul class="tabs-holder">
+		</ul>
+
+		<div class="tabs-content">
+		</div>
+	</div>
+	
+	<!-- <div class="fluent-menu" data-role="fluentmenu" >
+		<ul class="tabs-holder">
+		<li class="active"><a href="#tab_home">Home</a></li>
+			<li><a href="#tab_mailings">Mailing</a></li>
+			<li><a href="#tab_folder">Folder</a></li>
+			<li><a href="#tab_view">View</a></li>
+		</ul>
+
+		<div class="tabs-content">
+			<div class="tab-panel" id="tab_home">
+				<div class="tab-panel-group">
+					<div class="tab-group-content">
+						<button class="fluent-big-button">
+							<span class="icon mif-envelop"></span>
+							Create<br />message
+						</button>
+						<div class="tab-content-segment">
+							<button class="fluent-big-button dropdown-toggle">
+								<span class="icon mif-file-picture"></span>
+								<span class="label">Create<br />element</span>
+							</button>
+							<ul class="d-menu" data-role="dropdown">
+								<li><a href="#">Message</a></li>
+								<li><a href="#">Event</a></li>
+								<li><a href="#">Meeting</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<div class="tab-content-segment">
+							<button class="fluent-big-button" id="delete">
+								<span class="mif-cancel"></span>
+								<span class="label">Delete</span>
+							</button>
+						</div>
+					</div>
+					<div class="tab-group-caption">Clipboard</div>
+				</div>
+				<div class="tab-panel-group">
+					<div class="tab-group-content">
+						<div class="tab-content-segment">
+							<button class="fluent-button"><span class="mif-loop"></span>Replay</button>
+							<button class="fluent-button"><span class="mif-infinite"></span>Replay all</button>
+							<button class="fluent-button"><span class="mif-loop2"></span>Forward</button>
+						</div>
+						<div class="tab-content-segment">
+							<button class="fluent-tool-button"><img src="ribbon/images/Notebook-Save.png"></button>
+							<button class="fluent-tool-button"><img src="ribbon/images/Folder-Rename.png"></button>
+							<button class="fluent-tool-button"><img src="ribbon/images/Calendar-Next.png"></button>
+						</div>
+					</div>
+					<div class="tab-group-caption">Reply</div>
+				</div>
+				<div class="tab-panel-group">
+					<div class="tab-group-content">
+						<div class="input-control text">
+							<input type="text">
+							<button class="button"><span class="mif-search"></span></button>
+						</div>
+						<button class="fluent-button"><span class="icon-book on-left"></span>Address Book</button>
+						<div class="tab-content-segment">
+							<button class="fluent-button dropdown-toggle">
+								<span class="mif-filter on-left"></span>
+								<span class="label">Mail Filters</span>
+							</button>
+							<ul class="d-menu" data-role="dropdown">
+								<li><a href="#">Unread messages</a></li>
+								<li><a href="#">Has attachments</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Important</a></li>
+								<li><a href="#">Broken</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="tab-group-caption">Search</div>
+				</div>
+			</div>
+
+			<div class="tab-panel" id="tab_mailings">
+				<div class="tab-panel-group">
+					<div class="tab-group-content">
+						<button class="fluent-big-button">
+							<span class="icon mif-envelop"></span>
+							Create<br />message
+						</button>
+						<div class="tab-content-segment">
+							<button class="fluent-big-button dropdown-toggle">
+								<span class="icon mif-file-picture"></span>
+								<span class="label">Create<br />element</span>
+							</button>
+							<ul class="d-menu" data-role="dropdown">
+								<li><a href="#">Message</a></li>
+								<li><a href="#">Event</a></li>
+								<li><a href="#">Meeting</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<div class="tab-content-segment">
+							<button class="fluent-big-button">
+								<span class="mif-cancel"></span>
+								<span class="label">Delete</span>
+							</button>
+						</div>
+					</div>
+					<div class="tab-group-caption">Clipboard</div>
+				</div>
+			</div>
+
+			<div class="tab-panel" id="tab_folder">
+				<div class="tab-panel-group">
+					<div class="tab-group-content">
+						<div class="tab-content-segment">
+							<button class="fluent-button"><span class="mif-loop"></span>Replay</button>
+							<button class="fluent-button"><span class="mif-infinite"></span>Replay all</button>
+							<button class="fluent-button"><span class="mif-loop2"></span>Forward</button>
+						</div>
+						<div class="tab-content-segment">
+							<button class="fluent-tool-button"><img src="ribbon/images/Notebook-Save.png"></button>
+							<button class="fluent-tool-button"><img src="ribbon/images/Folder-Rename.png"></button>
+							<button class="fluent-tool-button"><img src="ribbon/images/Calendar-Next.png"></button>
+						</div>
+					</div>
+					<div class="tab-group-caption">Reply</div>
+				</div>
+			</div>
+
+			<div class="tab-panel" id="tab_view">
+				<div class="tab-panel-group">
+					<div class="tab-group-content">
+						<button class="fluent-big-button">
+							<span class="icon mif-envelop"></span>
+							Create<br />message
+						</button>
+						<div class="tab-content-segment">
+							<button class="fluent-big-button dropdown-toggle">
+								<span class="icon mif-file-picture"></span>
+								<span class="label">Create<br />element</span>
+							</button>
+							<ul class="d-menu" data-role="dropdown">
+								<li><a href="#">Message</a></li>
+								<li><a href="#">Event</a></li>
+								<li><a href="#">Meeting</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<div class="tab-content-segment">
+							<button class="fluent-big-button">
+								<span class="mif-cancel"></span>
+								<span class="label">Delete</span>
+							</button>
+						</div>
+					</div>
+					<div class="tab-group-caption">Clipboard</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+		
+	</template>
+	    
+    <script>
+        (function(){
+		
+			var shadowRoot = null;
+			
+            Bosonic.register({
+                
+				version: "3.0.0",
+
+				options: {
+					onSpecialClick: function(a, li){},
+					onTabClick: function(a, li){},
+					onTabChange: function(a, li){}
+				},
+				
+				addRibbonTab: function(tabCaption, tabId, active){
+					
+					//add tab holder
+					var tabholder = $(this.shadowRoot).find(".tabs-holder")[0];
+					if (active == 1){
+						var tab = '<li class="active"><a href="#' + tabId + '">' + tabCaption + '</a></li>';
+					}
+					else {
+						var tab = '<li><a href="#' + tabId + '">' + tabCaption + '</a></li>';
+					}
+										
+					//var tab = '<li class="active"><a href="#tab_view">View</a></li>';
+					if (tabholder.innerHTML == undefined){
+						tabholder.innerHTML = tab;
+					}
+					else {
+						tabholder.innerHTML = tabholder.innerHTML + tab;
+					}
+					
+					//add tab panel
+					var tabscontent = $(this.shadowRoot).find(".tabs-content")[0];
+					var panel = '<div class="tab-panel" id="' + tabId + '"> \
+									</div>'
+					tabscontent.innerHTML = tabscontent.innerHTML + panel;
+					
+				},
+				
+				addTabPanelGroup: function(tabId, groupCaption, groupId){
+					//tabId => group will be added on this tab panel.
+					var tabpanel = $(this.shadowRoot).find("#" + tabId)[0];
+					if (tabpanel != undefined && tabpanel != null){
+						var group = '<div class="tab-panel-group"> \
+										<div class="tab-group-content" id = "' + groupId + '"> \
+										</div> \
+										<div class="tab-group-caption">' + groupCaption + '</div> \
+									</div> ';
+									
+						tabpanel.innerHTML = tabpanel.innerHTML + group;
+					}
+				
+				},
+				
+				addTabPanelGroupButton: function(groupId, buttonCaption, buttonId){
+					//groupId => button will be added in this group
+					var tabpanelgroup = $(this.shadowRoot).find("#" + groupId)[0];
+					if (tabpanelgroup != undefined && tabpanelgroup != null){
+						var button = '<div class="tab-content-segment"> \
+											<button class="fluent-big-button" id = "' + buttonId + '"> \
+												<span class="mif-cancel"></span> \
+												<span class="label">' + buttonCaption + '</span> \
+											</button> \
+										</div> ';
+									
+						tabpanelgroup.innerHTML = tabpanelgroup.innerHTML + button;
+					}
+					
+					
+				},
+				
+				addButtonEventListeners: function(){
+					//add event listeners for all buttons
+					this.addbuttonclicklisteners();
+					
+				},
+				
+				showActiveTab: function(){
+					//show the active tab
+					var element = $(this.shadowRoot).find(".fluent-menu");
+					var active_tab = $(element.find(".tabs-holder > li.active")[0]);
+
+					this.openTab(active_tab);
+				},
+				
+                createdCallback: function() {
+				
+					var that = this, element = $(this.shadowRoot).find(".fluent-menu"), o = this.options;
+					
+					shadowRoot = this.shadowRoot;
+
+					$.each(element.data(), function(key, value){
+						if (key in o) {
+							try {
+								o[key] = $.parseJSON(value);
+							} catch (e) {
+								o[key] = value;
+							}
+						}
+					});
+
+					this._createMenu();
+
+					element.data('fluentmenu', this);
+
+                    
+					
+                },
+
+				_createMenu: function(){
+					var that = this, element = $(this.shadowRoot).find(".fluent-menu"), o = this.options;
+					var active_tab = $(element.find(".tabs-holder > li.active")[0]);
+
+					this.openTab(active_tab);
+
+					element.on("click", ".tabs-holder > li > a", function(e){
+						var a = $(this);
+						var li = a.parent('li');
+						var result;
+
+						if (li.hasClass('special')) {
+							if (typeof o.onSpecialClick === 'function') {
+								o.onSpecialClick(a, li);
+							} else {
+								if (typeof window[o.onSpecialClick] === 'function') {
+									window[o.onSpecialClick](a, li);
+								} else {
+									result = eval("(function(){"+o.onSpecialClick+"})");
+									result.call(a, li);
+								}
+							}
+						} else {
+							var panel = $(a).attr('href');
+							var panel = $(shadowRoot).find(panel);
+							
+							that._hidePanels();
+							that._showPanel(panel);
+							element.find('.tabs-holder > li').removeClass('active');
+							a.parent('li').addClass('active');
+
+							if (typeof o.onTabClick === 'function') {
+								o.onTabClick(a, li);
+							} else {
+								if (typeof window[o.onTabClick] === 'function') {
+									window[o.onTabClick](a, li);
+								} else {
+									result = eval("(function(){"+o.onTabClick+"})");
+									result.call(a, li);
+								}
+							}
+
+							if (typeof o.onTabChange === 'function') {
+								o.onTabChange(a, li);
+							} else {
+								if (typeof window[o.onTabChange] === 'function') {
+									window[o.onTabChange](a, li);
+								} else {
+									result = eval("(function(){"+o.onTabChange+"})");
+									result.call(a, li);
+								}
+							}
+						}
+						e.preventDefault();
+					});
+				},
+
+				_hidePanels: function(){
+					$(this.shadowRoot).find(".fluent-menu").find('.tab-panel').hide();
+				},
+
+				_showPanel: function(panel){
+					if (panel == undefined) {
+						panel = $(this.shadowRoot).find(".fluent-menu").find('.tabs-holder li.active a').attr('href');
+					}
+					$(panel).show();
+				},
+
+				openTab: function(tab){
+					var that = this, element = $(this.shadowRoot).find(".fluent-menu"), o = this.options;
+					var target_panel = tab.children('a').attr('href');
+					var target_panel = $(shadowRoot).find(target_panel);
+					if (target_panel.length === 0) {
+						return false;
+					}
+					this._hidePanels();
+					this._showPanel(target_panel);
+					element.find('.tabs-holder > li').removeClass('active');
+					tab.addClass('active');
+				},
+
+				_destroy: function () {
+				},
+
+				addbuttonclicklisteners: function(){
+				    var buttons = $(this.shadowRoot).find(".fluent-big-button, .fluent-button");
+				    for (var i = 0; i < buttons.length; i++)
+				    {
+				        buttons[i].addEventListener('click', this.buttonclick.bind(this), false);
+				    }
+				},
+				
+				buttonclick: function(e){
+				    var clickevent = new CustomEvent("button-clicked", { "detail": { "id": e.currentTarget.id } });
+
+				    this.dispatchEvent(clickevent);
+				}
+				
+				
+				
+
+            });
+        })();
+    </script>
+</element>

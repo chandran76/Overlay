@@ -1,0 +1,13 @@
+<element name="hello-world">
+    <template>
+        <span>Hello World</span>
+    </template>
+    <script>
+        Bosonic.register({
+            sayHello: function() {
+                var span = this.shadowRoot.querySelector('span');
+                span.textContent = 'Hello, world!';
+            }
+        });
+    </script>
+</element>
