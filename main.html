@@ -1,0 +1,145 @@
+﻿<!-- <!DOCTYPE html> -->
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+		<meta name="mobile-web-app-capable" content="yes">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+		<link rel="manifest" href="/Overlay/manifest.json">
+	<!-- requirejs loading problem for the below files so these must be before require.js file -->
+	<script type="text/javascript" src="mapview_js/d3.v3.js" charset="utf-8"></script> 
+    <script type="text/javascript" src="scripts/mapvieweventhandler.js"></script>	
+    <script type="text/javascript" src="scripts/GetNodePredictivePatternInformationArg.js"></script>	
+    <script type="text/javascript" src="scripts/PredictivePatternInfoAvailableArg.js"></script>	
+    <script type="text/javascript" src="scripts/BroadcastEventData.js"></script>	
+    <script type="text/javascript" src="scripts/BroadcastEventArg.js"></script>	
+    <script type="text/javascript" src="scripts/GetSessionStateInformationArg.js"></script>	
+    <script type="text/javascript" src="scripts/SessionStateInfoAvailableArg.js"></script>	
+
+    <script type="text/javascript">
+        
+        var clientSessionToken;
+        
+        clientSessionToken = encodeURIComponent(getUrlParameter("token"));
+
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        };
+
+        var KnownRequests;
+        KnownRequests = {
+            "GetNodePredictivePatternInformation": "{87743114-76A2-4EA0-9885-B8810A9B5F7D}",
+            "PresentCIS": "{4D8FAA56-3496-4D60-891C-76F0BD51750B}",
+            "BroadcastEvent": "{27742106-9155-4C15-A8C8-E550EC2F4DEF}",
+            "GetSessionStateInformation": "{BDF1B6CA-191B-4D52-9ED0-8B9E037B775E}"
+        };
+
+        var KnownMessages;
+        KnownMessages = {
+            "PredictivePatternInfoAvailable": "{7A49A0AF-0B1E-4BF8-801C-740F732E0C45}",
+            "SessionStateInfoAvailable": "{73BDCAC1-D90B-4527-B804-C6D141D9A882}"
+        };
+
+        var Resources;
+        Resources = {
+            "POPULATE_MODEL_INFO": "{AC9023C6-1A80-43EF-880B-5AD1A3FAD5C4}",
+            "POPULATE_ROOT_NODE_INFO": "{4EEE142B-B5BC-4B48-B5EA-EF485334EA5A}",
+            "POPULATE_CHILD_NODES_AND_LINKS": "{8E85623E-AB4A-4D5C-A73D-9B6F4CF4914A}",
+            "POPULATE_CAUSAL_LINKS": "{035D0001-A9E5-474B-88EA-56D13F854688}",
+            "POPULATE_AFFECTED_LINKS": "{AE25DC5D-3131-46F1-99F1-8E99B7655121}",
+            "NODE_SELECTED_MESSAGE": "NodeSelectedMessage",
+            "POPULATE_NODE_ALERTS": "{E99E14F8-A6CD-4954-B41E-AE13E4918FA2}",
+            "POPULATE_SYSTEM_ALERTS": "{F6C0DDBF-6F0F-41E1-80CA-631E93F82259}",
+            "POPULATE_TRACKING_INFO": "{BAD2FC66-0EA4-4DBE-A255-DF1086C403CC}",
+            "POPULATE_TIMELINE_INFO": "{420E3F5F-4F9E-4AD7-A336-AC806EA3B537}",
+            "POPULATE_STATE_INFO": "{087F4880-F3EF-4392-A62E-08ECA998AFA4}",
+            "TIMELINE_TONODEID_SELECT_INFO": "TimelineToNodeIdSelectInfo", 
+            "POPULATE_TRACKING_NODES": "{538FD153-9040-4ED5-A7F2-78BB936030E2}",
+            "NODE_ALERT_REGION_SELECTED_TAB": "NodeAlertRegionSelectedTab"
+        };
+
+        function JSONDateWithTime(dateStr) {
+            jsonDate = dateStr;
+            var d = new Date(parseInt(jsonDate.substr(6)));
+            var m, day;
+            m = d.getMonth() + 1;
+            if (m < 10)
+                m = '0' + m
+            if (d.getDate() < 10)
+                day = '0' + d.getDate()
+            else
+                day = d.getDate();
+            var formattedDate = m + "/" + day + "/" + d.getFullYear();
+            var hours = (d.getHours() < 10) ? "0" + d.getHours() : d.getHours();
+            var minutes = (d.getMinutes() < 10) ? "0" + d.getMinutes() : d.getMinutes();
+            var formattedTime = hours + ":" + minutes + ":" + d.getSeconds();
+            formattedDate = formattedDate + " " + formattedTime;
+            return formattedDate;
+        }
+
+    </script>
+
+
+	<!-- ===================================================================================== -->
+	<script data-main="scripts/startlauncher" src="scripts/require.js"></script>
+	<script type="text/javascript" src="scripts/jquery-3.1.0.js"></script>
+	<script type="text/javascript" src="scripts/layout.js"></script>
+	
+	<!-- load the mapview files -->
+	
+	<script type="text/javascript" src="mapview_js\lasso.js" charset="utf-8"></script>
+    <script type="text/javascript" src="mapview_js\FileSaver.min.js"></script>
+    <script type="text/javascript" src="mapview_js\graphcreator.js"></script>
+	<script type="text/javascript" src="mapview_js\mapviewclass.js"></script>
+		
+	<!-- Load the polyfills & runtime for webcomponents-->
+    <script src="scripts/lib/webcomponents.js"></script>
+    <script src="scripts/lib/bosonic-runtime.js"></script>
+	<link rel="stylesheet" href="css/ucomponents.css">
+
+	<!-- Import the element -->
+    <link rel="import" href="scripts/lib/u-components.html">
+	<link rel="import" href="scripts/lib/b-tabs.html">
+	<link rel="import" href="scripts/lib/b-dialog.html">
+	<link rel="import" href="scripts/lib/b-accordion.html">
+	<link rel="import" href="scripts/lib/u-mapview.html">
+	<link rel="import" href="scripts/lib/u-ribbon.html">
+	
+	<style>
+
+    b-dialog[visible].slide-in-right b-dialog-content {
+                -webkit-transform: translateX(0);
+                -moz-transform: translateX(0);
+                -ms-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+            b-dialog.slide-in-right b-dialog-content {
+                -webkit-transform: translateX(20%);
+                -moz-transform: translateX(20%);
+                -ms-transform: translateX(20%);
+                transform: translateX(20%);
+                opacity: 0;
+                -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+                -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+                transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+            }
+	</style>
+  	
+	</head>
+    <body>
+	<!--<div id = "container" class="container" style="border: 2px solid;height:100%;padding: 0;margin: 0;">-->
+        <div id="container" style="border: 1px solid;height:100%;padding: 0;margin: 0;">
+			<!-- <h2>Overlay V4 Dashboard will be coming soon...</h2> -->
+	</div>
+	
+	
+	
+	
+    </body> 	
+</html>
