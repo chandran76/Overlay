@@ -1,0 +1,71 @@
+ContextUniqueName|Id|UniqueName|DisplayName|TypeName
+PlatformInfo|{8ec872e4-3968-4337-9e2a-38bfc0c7d236}|BasePath|Base Path|System.String
+Model|{e7bf5484-b3ed-4252-b6bf-a8ea83cd8a35}|UniqueName|Unique Name|System.String
+Model|{2660c538-3bcc-44f2-96b4-ccba7680e39a}|DisplayName|Display Name|System.String
+Model|{14877226-9665-46c0-a99f-b558f2dfb7d1}|Version|Version|System.Int32
+Model|{e060f65d-dd79-4347-870e-490fe26bd65a}|RootNodeId|Root Node Id|System.Guid
+NodeInfo|{F7BAC38E-5225-4A78-8F99-2D5008572482}|UniqueName|Unique Name|System.String
+NodeInfo|{9AABE522-77AD-4C7A-A7B9-FAE9AE5149ED}|DisplayName|Display Name|System.String
+NodeInfo|{4F37083E-CDD2-487E-8A70-585649736139}|Version|Version|System.Int32
+NodeInfo|{71AE0A3F-529D-488D-A9F6-91788BB81057}|NodeType|Node Type|System.String
+NodeInfo|{50AC8EBD-92F5-4902-ABC1-6B30E2B95991}|IsLeafNode|Is Leaf Node|System.Boolean
+CausalInfo|{3A45FA8E-706D-49CF-BCC1-E5860F8138D7}|LinkId|Link Id|System.Guid
+CausalInfo|{6DBD6CD3-333A-494D-9AC3-41DB804F4CC3}|UseForTree|Use For Tree|System.Boolean
+CausalInfo|{13B6B16F-1099-4AF4-A839-9BF6A73A9045}|NodeId|Node Id|System.Guid
+CausalInfo|{D82F3866-DF31-44A8-9EAD-EEAA22DC16D5}|NodeUniqueName|Node Unique Name|System.String
+CausalInfo|{592139B5-45D3-4CD6-810C-64556100A65E}|NodeDisplayName|Node Display Name|System.String
+CausalInfo|{73053B7E-0F9B-412A-B1E5-377E1780503D}|Version|Version|System.Int32
+CausalInfo|{A9115320-04D4-4B49-BDCB-72222FF4D6B8}|NodeType|Node Type|System.String
+CausalInfo|{6117E5EA-B3C2-41C3-A82D-ECF4BD53A41D}|IsLeafNode|Is Leaf Node|System.Boolean
+NodeAlert|{A53661E1-6EE0-4D58-B946-461F3C705FD1}|NodeUniqueName|Node Unique Name|System.String
+NodeAlert|{ED2F4786-3905-4C93-99DA-C674EEE5DAF2}|SessionId|Session Id|System.Guid
+NodeAlert|{350F93EE-7472-4EB8-9C69-2FC5102F12CC}|TimeOfAlert|Time Of Alert|System.DateTime
+NodeAlert|{90E5B6B2-0AA2-48A2-9798-D557ECDF24AA}|AlertType|Alert Type Code|System.Int32
+NodeAlert|{BBEB2623-D0F5-474F-B56D-CAB2C81530FE}|AlertDescription|Aler tDescription|System.String
+NodeAlert|{76FF4ACB-E732-4787-BEF4-56803285AFDF}|ContextName|Context Unique Name|System.String
+NodeContextLabel|{DAF59DE0-B8C5-4657-A8F7-3BC139D8C6FD}|ContextId|Context Id|System.String
+NodeContextLabel|{9F86B30C-C75C-4297-A48A-FE9D49BC7949}|UniqueName|Context Unique Name|System.String
+NodeContextLabel|{97DD163F-1F9B-41B6-B587-73EFF5054590}|DisplayName|Context Display Name|System.String
+NodeContextLabel|{83228514-3007-425C-9A56-A5EE30222875}|Version|Context Version|System.Int32
+NodeContextLabel|{FDAF6BA6-E532-44A9-AA37-A627D5EFD01C}|HasPredictivePattern|Context Has Predictive Pattern|System.Boolean
+CisNode|{5F2B75D1-0F03-43D1-9761-040C189220B6}|NodeId|Node Id|System.Guid
+CisNode|{785C70E6-061C-4374-A903-86D43D239120}|UniqueName|Unique Name|System.String
+CisNode|{68AFE599-458E-44A4-8F7A-C18C07040E5A}|DisplayName|Display Name|System.String
+CisNode|{D046EC3E-8C4A-4EB1-B105-CC3918508873}|Version|Version|System.Int32
+CisNode|{7E1F9451-A2D7-46FA-AF4F-EF5DB139C2A1}|NodeType|Node Type|System.String
+ContextAttribute|{168E338C-9981-4D5C-86BF-9B76A7F88A5E}|AttributeId|Attribute Id|System.Guid
+ContextAttribute|{7A3DA5DC-1B8D-4451-9F4D-97684DACD0E0}|UniqueName|Unique Name|System.String
+ContextAttribute|{35B7391C-9D77-4CF8-82E6-1E5A0CDB8E26}|DisplayName|Display Name|System.String
+ContextAttribute|{FD6BC72F-E1F9-4B8F-AF59-F8EF90D0036A}|Version|Version|System.Int32
+ContextAttribute|{6375E37C-AC61-4BA1-8DBD-04DE27E7CF53}|TypeName|Type Name|System.String
+AlertedNode|{5556A18C-20AA-4B4B-A60B-89715C5EFD8B}|UniqueName|Unique Name|System.String
+AlertedNode|{DDEF9F2C-CDE9-4DF7-A574-6F39F92A920D}|DisplayName|Display Name|System.String
+AlertedNode|{6F66CCBD-72CB-4B17-8C2B-65C13B7A0126}|AlertCount|Alert Count|System.Int32
+AffectedInfo|{EF62D032-C09B-4510-AFCF-BED9987335ED}|LinkId|Link Id|System.Guid
+AffectedInfo|{F3339F2B-31F9-470C-95FC-E62AF0C82612}|UseForTree|Use For Tree|System.Boolean
+AffectedInfo|{C3E2F10F-D962-4ED4-82E6-DE518ED947CF}|NodeId|Node Id|System.Guid
+AffectedInfo|{8BE3E73F-52C9-45ED-9898-F4843B21877B}|NodeUniqueName|Node Unique Name|System.String
+AffectedInfo|{4D1F98F3-0ACE-4F4B-A9FA-B3E812583D75}|NodeDisplayName|Node Display Name|System.String
+AffectedInfo|{18A2FDBF-F323-428F-99D7-AFC79039D6DE}|Version|Version|System.Int32
+AffectedInfo|{D4A79678-CB1E-4ED4-B653-4C5CFCB7007B}|NodeType|Node Type|System.String
+AffectedInfo|{883E94BC-2D47-4330-9472-629DA300205B}|IsLeafNode|Is Leaf Node|System.Boolean
+SessionsList|{FD65E31A-679B-4962-A00F-8EAE540DFF2B}|NodeDisplayName|Node Display Name|System.String
+SessionsList|{935899BE-C29E-43C0-A433-0F361B3E2022}|TimeOfStart|Time Of Start|System.DateTime
+SessionTrace|{85DB5265-7C4A-40A3-BD31-4E2532DFAD4F}|FromNodeId|Causal Node Id|System.Guid
+SessionTrace|{DF568A48-67A7-4EB8-AA6C-C67056060D9E}|FromNodeUniqueName|Causal Node Unique Name|System.String
+SessionTrace|{73190800-493F-40EF-A139-296739E1E7A3}|FromNodeDisplayName|Causal Node|System.String
+SessionTrace|{3D921641-ADD3-4CB6-AD26-F25996C8FB0B}|ToNodeId|Affected Node Id|System.Guid
+SessionTrace|{AE63662D-8F08-43B1-AE2D-8B3AC2837A33}|ToNodeUniqueName|Affected Node Unique Name|System.String
+SessionTrace|{15F33454-3C85-4A15-B5A2-106B622628A7}|ToNodeDisplayName|Affected Node|System.String
+SessionTrace|{B25AD818-9823-4C5C-B034-EA93D6967BA1}|StateInfoId|Affected State Info Id|System.Guid
+SessionTrace|{F9924C95-67EA-4364-AB7A-3D057A70279C}|TimeOfTransition|Time Of Transition|System.DateTime
+SessionTrace|{9603204E-BFCC-424D-96C1-72E21A5313EF}|IsExternal|Is External Transition|System.Boolean
+SessionTrace|{49571399-D554-4225-9F65-F853DBED5E5C}|UserId|User Id|System.Guid
+SessionTrace|{6A32F373-AF39-46B6-B491-03BF01558511}|UserName|User Name|System.String
+SessionTrace|{0875F207-1526-4003-AC16-55B2F5E0F2DE}|RoleId|Role Id|System.Guid
+SessionTrace|{4C739BB2-17A4-407B-AC86-DCA8CCACC1D0}|RoleName|Role Name|System.String
+UserRoles|{63993E2C-5BBD-4CC3-A7B4-1BA9198423A0}|RoleId|Role Id|System.Guid
+UserRoles|{93CDFD32-568B-4CB9-88CC-DD281CCA8D82}|RoleName|Role Name|System.String
+UserRoles|{2404572B-C2D6-4963-AC2F-1F01C09A2D44}|Admin|Is Admin Role|System.Boolean
+AllRoles|{51434497-A4D5-4364-9853-ADC5103906F3}|RoleName|Role Node|System.String
+AllRoles|{8DC42E53-8C75-4D1F-A32E-A89BA24EB329}|Admin|Is Admin Role|System.Boolean

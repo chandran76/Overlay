@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OverlayUserInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OverlayUsers>
+		<OverlayUser>
+			<UserId>{6D84625D-7B84-45D1-98D6-5D4739A94A35}</UserId>
+			<UserFullName>Overlay Administrator</UserFullName>
+			<LoginName>Admin</LoginName>
+			<Password>123</Password>
+			<CreatedDateTime>2017-07-05 16:25:00</CreatedDateTime>
+			<LastUpdatedDateTime>2017-07-05 16:25:00</LastUpdatedDateTime>
+			<LastModifiedById>{6D84625D-7B84-45D1-98D6-5D4739A94A35}</LastModifiedById>
+			<IsDeleted>false</IsDeleted>
+		</OverlayUser>
+	</OverlayUsers>
+</OverlayUserInformation>

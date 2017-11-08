@@ -1,0 +1,15 @@
+Id|UniqueName|DisplayName|HasPredictivePattern|DataValidity
+{403c0c68-d166-41df-a76e-749c300686f2}|PlatformInfo|Platform Information|0|-1
+{3600b892-ae49-4fbf-b9ed-320745f59af8}|Model|Model Information|0|-1
+{FCB3D935-E09D-4E93-8F78-FF103602B09E}|NodeInfo|Node Information|0|-1
+{1BE25A49-2395-4A13-9D1C-67B2A209EABA}|CausalInfo|Causal Information|0|-1
+{510EC13C-E867-400F-BA55-303494D623BF}|NodeAlert|Node Alert|0|-1
+{6FA4EF48-5D4F-4FC7-A07B-9688EC9FFA74}|NodeContextLabel|Context Label|0|-1
+{5519FF1A-119D-428C-B708-74BA53BAEEE7}|CisNode|CIS Referred Node|0|-1
+{D858D18F-AAC3-4098-8EF9-DDE4818846D3}|ContextAttribute|Context Attribute|0|-1
+{3D61B387-E093-4C97-AFEC-65EBD67B533C}|AlertedNode|Alerted Node|0|-1
+{096F35B1-7F01-4212-9F60-B83E79A918D5}|AffectedInfo|Affected Information|0|-1
+{A435A80C-77CD-44B1-B190-4562D88A7F83}|SessionsList|Sessions List|0|-1
+{5D492978-D718-42E1-84CD-512F25161605}|SessionTrace|Sessions Trace|0|-1
+{C6370118-99DF-41BE-8F14-0D59B5B2D10E}|UserRoles|User Roles|0|-1
+{D2008253-68FC-4C63-99D7-26C1A6D2D5D5}|AllRoles|All Roles|0|-1
