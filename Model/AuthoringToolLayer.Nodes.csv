@@ -1,0 +1,315 @@
+Id|UniqueName|DisplayName|IsLeafNode|NodeType|HasValidation|Version
+{c90cf076-7aac-41a9-9794-1eb80fda8339}|UlyssesProvidedOverlayAuthoringTool|Ulysses Provided Overlay Authoring Tool|0|Activity|0|0
+{d5b7fe15-9068-4d5b-bf0d-1e060ba72cae}|UpdateModel|Manage Domain Model|0|Activity|1|0
+{132a60d9-2fc8-474c-8674-2d486a84ba4b}|AddNode|Add Node|1|Activity|1|0
+{403c0c68-d166-41df-a76e-749c300686f2}|DomainNode|Domain Node|0|Context|0|0
+{fa1b2144-a960-4905-b337-cc96f96eebe1}|EditNode|Edit Node|1|Activity|1|0
+{db7874b4-4119-468d-a50f-975bc664a7a3}|DeleteNode|Delete Node|1|Activity|1|0
+{d85dd98f-c432-4ba5-8056-c7cc4a9ca7a2}|AddRole|Add Role|1|Activity|1|0
+{ce48bb87-a192-453a-bd7d-47a18a4b5eb4}|EditRole|Edit Role|1|Activity|1|0
+{709a6f4d-1d13-4399-ad0f-91f51e305965}|DeleteRole|Delete Role|1|Activity|1|0
+{afb0f031-262b-46e1-9a62-b9d3f3a22d56}|AddReference|Add Reference|1|Activity|1|0
+{1366850c-ceb5-4ae7-9526-db1d402f895d}|EditReference|Edit Reference|1|Activity|1|0
+{5f1450f8-7acc-4e53-b932-4a815fc33f82}|DeleteReference|Delete Reference|1|Activity|1|0
+{4eb5ff7b-04b0-4539-9ede-3a64db9a89c6}|AddDiscussion|Add Discussion|1|Activity|1|0
+{9a9a005d-1ef6-437c-bf45-5a1406b6a4f7}|ReplyDiscussion|Reply Discussion|1|Activity|1|0
+{d192ca32-054c-4a55-b62e-fd98a3183413}|DeleteDiscussion|Delete Discussion|1|Activity|1|0
+{3600b892-ae49-4fbf-b9ed-320745f59af8}|SelectComment|Select Comment|0|Context|0|0
+{54687200-e8f6-4eab-b6db-73b485c4476a}|MoveNode|Move Node|1|Activity|1|0
+{aaa7e4c0-e5cb-4e97-91ca-08b51a165e8c}|AddLink|Add Link|1|Activity|1|0
+{5b1070df-bf14-49ef-b462-ee35172b99f2}|SelectLink|Select Link|0|Context|0|0
+{a22ad2e1-c075-474f-a584-662e36f18768}|EditLink|Edit Link|1|Activity|1|0
+{8b393ac5-7e68-4b4d-84c2-ca6a82971243}|DeleteLink|Delete Link|1|Activity|1|0
+{844a9988-fa8d-46ae-bbc8-c908d22df32c}|LinkNodeToRole|Link Node To Role|1|Activity|1|0
+{82e9ce2d-28a1-460f-8764-6f43e40ead30}|RemoveRoleLinkFromNode|Remove Role Link From Node|1|Activity|1|0
+{8ec872e4-3968-4337-9e2a-38bfc0c7d236}|DisplayName|Display Name|0|Activity|0|0
+{e7bf5484-b3ed-4252-b6bf-a8ea83cd8a35}|UniqueName|Unique Name|0|Activity|0|0
+{2660c538-3bcc-44f2-96b4-ccba7680e39a}|Goal|Goal|0|Activity|0|0
+{6e823860-e0d7-4802-84bc-ae7a239e034f}|AlertLevelChanges|Alert Level Changes|0|Activity|0|0
+{14877226-9665-46c0-a99f-b558f2dfb7d1}|ContextGuidelines|Context Guidelines|0|Activity|0|0
+{e060f65d-dd79-4347-870e-490fe26bd65a}|NotesForEndUser|Notes For End User|0|Activity|0|0
+{e16069e3-b7d7-43de-a436-0dd9b88410ce}|NodeDetailsByDomainExpert|Node Details By Domain Expert|0|Activity|0|0
+{3b070e70-7cf1-4155-be76-0185caa6368d}|NodeDetailsByModelIntegrator|Node Details By Model Integrator|0|Activity|0|0
+{047cc79d-c26b-4571-a202-e25ffc35147b}|SelectNode|Select Node|0|Context|0|0
+{ecf5336f-eff1-4fed-9faf-6aee148d8c2b}|DisplayName1|Display Name|0|Activity|0|0
+{8df96ebe-f8c5-41e1-9a50-80943a13f3d0}|EditOverlayRole|Edit Overlay Role|0|Context|0|0
+{ac4b11df-1110-487f-bd98-77e186b11550}|RoleName1|Role Name|0|Activity|0|0
+{db147246-cddb-4d17-a2b2-2f8129addcbc}|SelectOverlayRole|Select Overlay Role|0|Context|0|0
+{e9bd7d98-853e-475a-aeb6-0a984f1a335d}|RoleName2|Role Name|0|Activity|0|0
+{d0a1b5c3-0997-49f4-adc8-e09307578648}|EditOverlayReference|Edit Overlay Reference|0|Context|0|0
+{1863ef56-7bc8-4513-b3d3-102f5cde6d00}|FileName1|File Name|0|Activity|0|0
+{307ae21c-b84f-49ac-b534-77fdb84ae34a}|IsGAC1|Is GAC|0|Activity|0|0
+{fd197896-e230-4407-a318-46897bb1073a}|SelectOverlayReference|Select Overlay Reference|0|Context|0|0
+{b21867ac-59a9-432c-90fa-3e10f8bb3e9f}|FileName2|File Name|0|Activity|0|0
+{297e3666-d413-45ec-a67c-b5f2bb45d795}|Comment|Comment|0|Context|0|0
+{777a0be6-828e-404d-a4ca-84eba972205b}|Title|Title|0|Activity|0|0
+{c0860c8a-bc8b-45ce-ba6e-0a7ae19b9c19}|Author|Author|0|Activity|0|0
+{50e98894-fe29-47f7-94d6-a33c27df4083}|Role|Role|0|Activity|0|0
+{bbec2bfd-a8aa-4ad3-ae8a-71599ef21c6e}|Date|Date|0|Activity|0|0
+{e34a3888-8e4d-46df-b3af-663c2e3512c3}|CommentDetails|Comment Details|0|Activity|0|0
+{c6a68fae-601b-4088-8067-35fcf278204d}|CommentTitle|Comment Title|0|Activity|0|0
+{a72a1cc0-bfe5-4ca0-aecb-a9fed8bd3bbe}|SelectSourceNode|Select Source Node|0|Context|0|0
+{ad2b58a8-1dd7-4837-ae8a-50e3bd3ef241}|SelectTargetNode|Select Target Node|0|Context|0|0
+{2c468ee5-fbb6-4b6c-be3b-2ba675485155}|SourceNodeDisplayName|Source Node Display Name|0|Activity|0|0
+{977f4293-471f-4de2-8baa-6b10d7984255}|TargetNodeDisplayName|Target Node Display Name|0|Activity|0|0
+{ec19a2fd-dad8-4921-b80c-715e68d943a4}|DisplayName5|Display Name|0|Activity|0|0
+{8f45b62b-2d48-426d-8d74-16398998f702}|SelectParentNode|Select Parent Node|0|Context|0|0
+{9fb12c88-32e0-414b-a230-552f956ef31d}|DisplayName3|Display Name|0|Activity|0|0
+{7857db70-fb51-407f-8775-f98d21ce5984}|SelectNodeForEdit|Select Node For Edit|0|Context|0|0
+{1644f339-161a-4de6-89f2-32fb8776ae93}|DisplayName2|Display Name|0|Activity|0|0
+{399e7fbc-85c9-4cec-9034-e69a347259dd}|UniqueName1|Unique Name|0|Activity|0|0
+{46528b05-595e-4358-9c6d-07e6428b5af7}|Goal1|Goal|0|Activity|0|0
+{1da67a24-da57-4db9-95f8-844d772cb461}|AlertLevelChanges1|Alert Level Changes|0|Activity|0|0
+{e477e200-31be-4879-ac19-396fc62ccc2d}|ContextGuidelines1|Context Guidelines|0|Activity|0|0
+{468229da-bfd1-4d10-a808-6bc74d4deba2}|NotesForEndUser1|Notes For End User|0|Activity|0|0
+{96fc7737-b5ca-4bd3-b1ca-5d3751067b28}|NodeDetailsByDomainExpert1|Node Details By Domain Expert|0|Activity|0|0
+{69c698be-51a7-4b42-85b2-29efacc2ecb2}|NodeDetailsByModelIntegrator1|Node Details By Model Integrator|0|Activity|0|0
+{09f1082c-d2ba-41bc-804b-75ef5b541c5c}|AddOverlayRole|Add Overlay Role|0|Context|0|0
+{7c599476-e76e-4698-b4ca-5348ba5853cd}|RoleName|Role Name|0|Activity|0|0
+{d784fffb-0389-4630-b17f-47d914f303ed}|RoleDescription|Role Description|0|Activity|0|0
+{3d4c7784-ef43-4579-b247-3088323aa14d}|RoleDescription1|Role Description|0|Activity|0|0
+{55eab45f-3446-41ef-bcbd-3562ad02bfcd}|ReplyComment|Reply Comment|0|Context|0|0
+{afea5fac-f6f9-4611-8dad-9983acc0e464}|ReplyTitle|Reply Title|0|Activity|0|0
+{373fa811-5176-4808-9a9c-5d86a45074f5}|ReplyAuthor|Reply Author|0|Activity|0|0
+{30a5551e-4f61-4d3d-b524-e70c37143ee2}|ReplyRole|Reply Role|0|Activity|0|0
+{e8dfecd7-9817-4983-aa46-5ffb60799960}|ReplyDate|Reply Date|0|Activity|0|0
+{6dfbbacc-891a-4c24-a18a-5726d21e97d1}|ReplyCommentDetails|Reply Comment Details|0|Activity|0|0
+{b134fadc-1dfc-49c9-b429-148f89e93719}|ReplyParentCommentId|Reply Parent Comment Id|0|Activity|0|0
+{54241c4c-baea-496f-9c7b-447a1b83be9e}|AddOverlayReference|Add Overlay Reference|0|Context|0|0
+{c330a69d-58b7-4e9d-9bb0-127a8ea200be}|FileName|File Name|0|Activity|0|0
+{c1d8b9c1-08b3-47b5-bd90-118c305c7cdf}|IsGAC|Is GAC|0|Activity|0|0
+{226db137-3827-4feb-83c3-272951dad879}|IsGAC2|Is GAC|0|Activity|0|0
+{a0d780aa-9abb-4b4b-bd6b-112fc2c391cb}|SelectDirection|Select Direction|0|Context|0|0
+{8b688fb9-6b99-4e51-93b3-ec90c071214d}|Direction|Direction in which the node should be moved|0|Activity|0|0
+{d1d3d847-de71-43e3-8fe0-2368f6fe89ae}|SourceNodeUniqueName|Source Node Unique Name|0|Activity|0|0
+{6a9b84a2-00ff-42fa-927b-3b877717cf9e}|TargetNodeUniqueName|Target Node Unique Name|0|Activity|0|0
+{6c079f56-6f0f-4dfc-bf69-2216b6c8518c}|LinkNodeToReference|Link Node To Reference|1|Activity|1|0
+{68befe40-43be-4ca4-b855-61aa09eafd87}|SelectChildNode|Select Child Node|0|Context|0|0
+{c18807e2-9ee6-4bf6-b5ec-94ef20686fe8}|DisplayName4|Display Name|0|Activity|0|0
+{14137541-4816-4948-95b4-feb0d14d5988}|EditOverlayLink|Edit Overlay Link|0|Context|0|0
+{7190c88b-7873-4036-9872-0737e66f40d7}|LinkScript|Link Script|0|Activity|0|0
+{68a65e90-53b2-41c2-9e5f-384a94be0170}|ScriptingLanguage|Scripting Language|0|Activity|0|0
+{b85591b9-72ea-4708-ace0-3a1b7d14ea53}|RemoveReferenceLinkFromNode|Remove Reference Link From Node|1|Activity|1|0
+{5a6130b1-f740-4da9-86c8-410745fcf830}|ProvideRootNodeToAuthoringToolUI|Provide Root Node To Authoring Tool U I|0|Activity|0|0
+{b397780b-fa57-46fa-85d9-12d5a6642c38}|ProvideChildNodesToAuthoringToolUI|Provide Child Nodes To Authoring Tool U I|0|Activity|1|0
+{eb028f23-e6dc-4f93-9bb0-43c3daea5fde}|ProvideParentNodesToAuthoringToolUI|Provide Parent Nodes To Authoring Tool U I|0|Activity|1|0
+{c263e535-b1ea-419f-a721-2d481eb20601}|NodeScript|Node Script|0|Activity|0|0
+{73f02b93-22c4-45c2-96a9-7cfa79c1064b}|NodeScriptLanguage|Node Script Language|0|Activity|0|0
+{d13451f7-9c79-44d9-bd24-d715eb5fb7cd}|NodeScript1|Node Script|0|Activity|0|0
+{a101c289-4818-4d12-a960-30c3c7f47329}|NodeScriptLanguage1|Node Script Language|0|Activity|0|0
+{8133587f-a031-46f4-803e-988daa207076}|SelectTargetPath|Select path to save the new build|0|Context|0|0
+{0749ecf9-c578-48b1-bd66-7bda0be4e46e}|TargetPath|Target Path|0|Activity|0|0
+{047b6975-9f1e-41ae-abe0-127b2bcf906a}|RootNode|Root Node|0|Context|0|0
+{cc34faf9-2cd9-41f7-a983-7ed87dacebf1}|RootNodeDisplayName|Root Node Display Name|0|Activity|0|0
+{71ab6705-55a0-4ad5-bc87-0f065666c2d7}|LinkScript1|Link Script|0|Activity|0|0
+{2d8c43b3-62b7-499a-a8dc-049d43728c45}|CompileModel|Compile Model|1|Activity|1|0
+{95113eeb-667b-4714-8b3f-8886d98c3e27}|MainDashboardNewCISController|Design CIS for Main Dashboard aka Authoring Tool|0|CIS|0|0
+{3055e45c-d7bf-40eb-b917-39ff886c52fb}|MainDashboardNewToolbarRegionCIS|The Toolbar Region at top|0|CIS|0|0
+{e3d60686-c03b-4ad4-9194-3fe84a061e3e}|DomainNodeViewNewRegionCIS|Model representation at left side using Tree View|0|CIS|0|0
+{9d573008-7e32-4279-b697-3eca5ec25a9e}|NodeInformationNewRegionCIS|Right side region displaying information about selected Node|0|CIS|0|0
+{813fc72a-befa-4fc0-900a-64d73e836cd4}|MainDashboardNewResources|Common resources used in Authoring Tool CIS|0|CIS|0|0
+{5ffb8a15-1ffd-4f29-ae14-0e16ba2b4de6}|TreeListOperationFindNodeByText|Define operation to find node by text in Tree View|0|CIS|0|0
+{ea419a27-bc25-4d90-842a-528fa4b45466}|AddRolesCISController|Design CIS for Adding New Roles|0|CIS|0|0
+{b07a6b66-a6ca-463f-9470-c26a070f8acb}|AddRolesRegionCIS|CIS for Adding a new Role will have a single Region|0|CIS|0|0
+{3ecc661f-d677-4e8b-a0f2-202d3fb3a7c6}|AddNewRoleResources|Common resources used in CIS for adding role|0|CIS|0|0
+{773f45f1-012f-4b84-b235-d6b15860cea1}|AssignRolesToNodeCISController|Design CIS for Assigning Role to Nodes|0|CIS|0|0
+{d5313654-d555-4082-b13d-ffc8561232d3}|AssignRolesToNodeRegionCIS|CIS for Assigning Role to Nodes will have a single Region|0|CIS|0|0
+{456b4539-470b-45f9-bd2d-ba9c2d59378b}|AssignRolesToNodeResources|Common resources used in CIS for Assigning Role to Nodes|0|CIS|0|0
+{1617fc19-956f-4f64-82ab-cc2092c45e6f}|RolesCISController|Design CIS for Managing Roles|0|CIS|0|0
+{449e812b-8a3e-49c4-8f52-6654642f7ce3}|EditRoleRegionCIS|CIS to Edit Roles will have a single Region|0|CIS|0|0
+{53e9936f-be3e-4b7b-97d0-b540236753d7}|EditRoleResources|Common resources used in CIS to Edit Roles|0|CIS|0|0
+{3827ef55-69c5-4b6c-ad7d-f815f0e1defc}|EditRoleCISController|Design CIS to Edit Roles|0|CIS|0|0
+{b4935fe9-4ecc-4928-bc2f-12b7d7afd766}|LinkNodesCISRegion|CIS for Managing Affecting and Causal Links of a Node will have a single region|0|CIS|0|0
+{881635ef-560c-4ed2-9097-ff617753e234}|LinkNodesResources|Common resources used in CIS for Managing Affecting and Causal Links of a Node|0|CIS|0|0
+{c579ce38-848a-4e12-a5e6-5fefeba12568}|AssignNodesToRoleCISController|Design CIS for Assigning Nodes To a Role|0|CIS|0|0
+{25c0f5d6-7558-4f38-aaca-8140c81d0096}|NodeDiscussionRegionCIS|Node Discussion CIS will have a single region|0|CIS|0|0
+{e221e624-3268-4200-9524-15b2969c138e}|NodeDiscussionResources|Common resources used in CIS for managing Discussion about a Node|0|CIS|0|0
+{3fe8b8f9-e5c0-4b75-aa64-7d8f100f121b}|LinkNodesCISController|Design CIS for Managing Affecting and Causal Links of a Node|0|CIS|0|0
+{0e5246f4-fbf6-4ba7-beef-e9a5e042e79e}|RolesRegionCIS|CIS for Managing Roles will have a single Region|0|CIS|0|0
+{27e03074-fa93-4c09-847a-7450be537c63}|RoleResources|Common resources used in CIS for Managing Roles|0|CIS|0|0
+{e9cbdb79-2c52-47a3-bc9c-69150741ba92}|AuthoringToolCISCluster|Authoring Tool CIS Cluster|1|Activity|0|0
+{57b9619b-bd14-429c-8356-29659cc96022}|NodeType|Node Type|0|Activity|0|0
+{9bb178f5-3023-4db6-bad2-9c9ce03a4d83}|NodeType1|Node Type|0|Activity|0|0
+{d484eeab-5642-4b20-9251-6e07559daa19}|RootNodeType|Root Node Type|0|Activity|0|0
+{a5e37583-ab8f-4a73-8b00-98ce9797fc10}|ManageCISLayoutInformation|Manage CIS Layout Information|1|Activity|1|0
+{7a911f79-07d5-4bc3-afd4-aca20739926c}|CISLayout|CIS Layout|0|Context|0|0
+{96a66983-572f-4446-962c-e12f0950cbb9}|CISNodeId|CIS Node Id|0|Activity|0|0
+{0cc7550a-92ca-4cd3-bf58-9460c92ab676}|HomeCIS1|Home CIS|0|Activity|0|0
+{2e96b04f-225b-4d2b-ab67-dbaf68ec056a}|ProvideCISLayoutInformation|Provide CIS Layout Information|0|Activity|1|0
+{3498a329-2d5e-4221-a98b-d2687b5a1ef9}|LayoutUIML1|Layout UIML|0|Activity|0|0
+{3d5ceceb-9651-4286-a140-67fe096ee622}|NodeDiscussionCISController|Design CIS for Discussions of a Node|0|CIS|0|0
+{c7e09125-5b34-4aec-8b56-566d87d26fed}|AssignNodesToRoleRegionCIS|CIS for Assigning Nodes To a Role will have a single Region|0|CIS|0|0
+{78705710-78ea-4a8f-98bd-84010fc80b45}|AssigningNodesToRoleResources|Common resources used in CIS for Assigning Nodes to Role|0|CIS|0|0
+{3c8aa8fc-f86c-4962-b30d-92a6c0898047}|NodeDiscussionEditCISController|Design CIS for Editing Node Discussion|0|CIS|0|0
+{a643b704-4437-4715-a0c6-c3f66f7f6133}|NodeDiscussionEditRegionCIS|Node Discussion Editing CIS will have a single region|0|CIS|0|0
+{43bf455f-5bcd-412e-b461-b3e980814cf6}|NodeDiscussionEditResources|Common resources used in CIS for editing Discussion about a Node|0|CIS|0|0
+{83497798-0150-4697-b97a-13e3bc9568ca}|NodeDiscussionViewCISController|Design CIS for Viewing Node Discussion|0|CIS|0|0
+{62e0b2b2-2d2f-4a1a-82d2-1c6b113b9011}|NodeDiscussionViewRegionCIS|Node Discussion Viewing CIS will have a single region|0|CIS|0|0
+{1f32d45c-c841-4cfd-b28c-aeefbb93f8a5}|NodeDiscussionViewResources|Common resources used in CIS for Viewing Discussion about a Node|0|CIS|0|0
+{e04afc7a-1b2e-4618-bda3-016d52774d0f}|ManageCISInformationCISController|Design CIS for Managing CIS Layout Information|0|CIS|0|0
+{6a0ecf50-e155-4bac-b76c-d5efc06cb5f8}|ManageCISInformationRegionCIS|CIS Layout Information CIS will have a single region|0|CIS|0|0
+{36959ce0-5a83-44ea-9939-cbb44faff2ea}|ManagingCISLayoutResources|Common resources used in CIS for managing CIS Layout|0|CIS|0|0
+{ab9a7199-4260-4853-a546-c4648afeafe0}|LoadSelectedDomainModelForAuthoring|Load Selected Domain Model for Authoring|0|Activity|1|0
+{c2145d55-e834-48a7-9988-cace313dcde4}|DomainModelFile|Domain Model File|0|Context|0|0
+{591df155-55ed-4b7b-a0f8-4674ca1e1785}|DomainModelName1|Domain Model Name|0|Activity|0|0
+{3e5b14ae-7b92-4676-8bdc-52b47262ff65}|DomainModelFileName1|Domain Model File Name|0|Activity|0|0
+{11219639-c513-44de-986f-a7fce5352ceb}|NodeTag|Node Tag|0|Activity|0|0
+{49a6aa57-f44e-400b-b895-f08cb9a5b7a5}|NodeTag1|Node Tag|0|Activity|0|0
+{9af68cbd-597e-4d3d-a2a8-810caaca95cc}|OverlayEnterpriseServer|Overlay Enterprise Server|0|Activity|0|0
+{16cd0896-bd6e-4091-93af-12cf1406f0dd}|ProvideListOfAvailableDomainModelsOnServer|Provide list of available domain models on server|0|Activity|0|0
+{8c44ac8f-ce3a-4ab9-8548-c0a46a105740}|DownloadSelectedDomainModelFileFromMainLine|Download selected domain model file from main line|0|Activity|0|0
+{4387469e-a493-424c-b24c-35550db594a3}|ProvideListOfMainLineDomainModels|Provide list of main line domain models|0|Activity|0|0
+{ea67ddf2-2f97-4ec5-b63b-290304b627ba}|ProvideListOfUserSpecificCheckedOutDomainModels|Provide list of user specific checked out domain models |1|Activity|0|0
+{f5d80089-d565-45cf-9f02-5f35ad069de7}|SelectMainLineDomainModel|Select Main Line Domain Model|0|Activity|0|0
+{cb07731c-0eee-4e66-9dab-b43794ca18f7}|Name|Name|1|Activity|0|0
+{0d0dd839-a51e-4768-b6d2-e29fb6363a6c}|Description|Description|1|Activity|0|0
+{8df6e6e0-ae1f-471c-98ed-5f58d5a9c708}|CreatedDatetime|Created Datetime|1|Activity|0|0
+{090f998f-39d0-4534-a1da-aec3b7a63ebe}|LastUpdatedDatetime|Last updated datetime|1|Activity|0|0
+{0e7ca487-ba4f-4046-94ec-5241978f1af4}|ModelFileName|Model file name|1|Activity|0|0
+{18fd1c4d-2677-4d93-8acf-06f4893e89e9}|SelectedDomainModelFile|Selected Domain Model File|0|Activity|0|0
+{dde688c4-e30c-4990-a4d8-effb42363f1d}|DomainModelName2|Domain model name|1|Activity|0|0
+{ebfeff21-a667-47e0-ba7d-b635016eb084}|DomainModelFileName2|Domain model file name|1|Activity|0|0
+{f889332e-ef92-4ae1-a43c-c6f3bfe994dc}|ModelFileURL|Model File URL|1|Activity|0|0
+{27b9ff26-635a-4ca1-b698-c3d61c7eaa76}|UniqueName2|Unique Name|0|Activity|0|0
+{d400a7b6-93ca-4742-b6ef-1471553583b5}|LinkScriptLanguage1|Link Script Language|0|Activity|0|0
+{46f6a953-a747-4ebf-a440-9cdbcf3b2ee6}|Reparent|ReParent|1|Activity|1|0
+{6253e371-87c2-451b-baf3-b9713759a247}|ReparentNode|Reparent Node|0|Context|0|0
+{0e927286-d5a6-40f1-a8b1-dc7fa684defb}|OldParentId|Old Parent Id|0|Activity|0|0
+{63136f5d-ff6a-48f4-b126-a4f7939eae31}|ChildId|Child Id|0|Activity|0|0
+{bacd7f46-4cb9-4647-8b53-44912d802a10}|NewParentId|New Parent Id|0|Activity|0|0
+{5e87a74f-77ed-4cc0-b4e9-7ccf63a8f97a}|AddChildNodeCISController|Design CIS for Adding Child Nodes|0|CIS|0|0
+{3ec401b3-c774-4cf2-8eb1-762db060c4d6}|AddChildNodeRegionCIS|CIS for Adding a new child node will have a single region|0|CIS|0|0
+{3ba7926a-527b-4dc4-bc9f-8b2a5227ec9b}|AddChildNodeResources|Common resources used in CIS for adding new child node|0|CIS|0|0
+{60f70304-dd1a-4e17-8af2-1d9bfac0b0d3}|SearchNodesCISController|Design CIS for Searching Nodes|0|CIS|0|0
+{b856a559-1df2-453f-8579-2a736250e88b}|SearchNodesCISRegion|CIS for Searching Nodes will have a single region|0|CIS|0|0
+{4c38a441-768f-48d2-8c50-993cd85ffecc}|SearchNodesResources|Common Resources used in CIS for searching nodes|0|CIS|0|0
+{69aed8e5-af4d-43bb-9fb7-daa17f003b54}|AddNewDomainModel|Add New Domain Model|0|Activity|1|0
+{f9ffab46-4ebf-48fc-b3c1-25861ee9b345}|DomainModel|Domain Model|0|Context|0|0
+{85208f61-1cea-48ae-993c-ae94ba68ac16}|DomainName|Domain Name|0|Activity|0|0
+{9c7e5aa7-0ee8-4ab8-ba60-833eb418cad6}|LayerName|Layer Name|0|Activity|0|0
+{6b756785-ca23-437b-bcc5-0c4f43a9779d}|NewDomainModelFileName|File Name|0|Activity|0|0
+{69769d68-a1ef-4eff-a521-5ee59e403d39}|RootNodeDisplayName1|Root Node Display Name|0|Activity|0|0
+{40a7ad65-d7b8-44d1-ae76-8b0ddfc9ef5c}|RootNodeUniqueName|Root Node Unique Name|0|Activity|0|0
+{f166af30-7a78-4bfc-ad7a-9d3ecbb75124}|AddDomainModelCISController|Design CIS for Adding New Domain Model|0|CIS|0|0
+{e22e822f-5f5d-4194-8853-3f55f8562982}|AddDomainModelRegionCIS|CIS for Adding a new domain model will have a single region|0|CIS|0|0
+{c8c5335b-8a16-4dd4-a7f0-db41fdf105c4}|AddDomainModelResources|Common Resources used in CIS for adding new domain model|0|CIS|0|0
+{081f1949-2d2f-4fe9-902b-de2e6c2df103}|DomainModelListViewCISController|Design CIS for Domain Model List View|0|CIS|0|0
+{39ca8f42-7ab4-486c-8e65-a9af0968d618}|DomainModelListViewRegionCIS|Domain Model List View will have a single region|0|CIS|0|0
+{f86cb093-8966-40cb-8361-f934e7cc2d84}|DomainModelListViewResources|Common Resources used in CIS for showing Domain model list|0|CIS|0|0
+{f751a2d8-d0ea-42a1-91a2-a63cf0c4c9dd}|PredictivePatternCluster|Authoring Tool Predictive Pattern Cluster|0|Activity|0|0
+{69515460-42a9-4428-a812-23eca6f83411}|PlatformDetails|Platform Details|0|Context|0|0
+{e9c0f0d7-c134-4b2a-8f82-6bc9ea2f8d34}|PlatformBasePath|Platform Base Path|0|Activity|0|0
+{fa60890d-1547-40fa-b751-08fa4ada2e5b}|ReadConfigFile|Read Config File|0|Activity|1|0
+{cf166f36-730d-43d6-a311-92d0d0155035}|LoadModel|Load Model|0|Activity|1|0
+{a630154e-1532-4eab-83f3-80e02ad3b693}|GetRootNode|Get Root Node|0|Activity|1|0
+{111f74fb-5ae1-4823-8d68-f6c1925c7c43}|ModelContext|Model Context|0|Context|0|0
+{19e52952-3805-440a-869b-9e5bb8141b74}|ModelContent|Model Content|0|Activity|0|0
+{b101df64-0d88-440e-8c82-de8ce1977db2}|SaveModel|Save Model|0|Activity|1|0
+{57457e5a-c5a9-4fdb-943d-69e357acdb53}|ReadConfigForUpdate|Read Config For Update|0|Activity|1|0
+{cec74caa-bfe6-4a74-9201-52924db34b57}|LoadModelForUpdate|Load Model For Update|0|Activity|1|0
+{f4a2d933-9b7d-423e-90c8-ff6c1b50ea96}|AddNodeInModel|Add Node In Model|0|Activity|1|0
+{9d614cae-c7a6-49e1-b0a4-3960a930d790}|SaveModelAfterUpdate|Save Model After Update|0|Activity|1|0
+{73db3317-3bff-48f3-9d55-0df7bbfa898d}|EditNodeInModel|Edit Node In Model|0|Activity|1|0
+{fb7fbab2-246e-46fc-bb0e-267cc99b3ab0}|DeleteNodeInModel|Delete Node In Model|0|Activity|1|0
+{d2dc8d4b-0752-44c1-b965-5d6f9cb1857b}|AddRoleInModel|Add Role In Model|0|Activity|1|0
+{87de27c4-cfc1-417a-a0ef-0963057404e6}|EditRoleInModel|Edit Role In Model|0|Activity|1|0
+{fa2fb14f-33e6-4f55-b7b6-884ab833cb5a}|DeleteRoleInModel|Delete Role In Model|0|Activity|1|0
+{e4e4b116-bef0-48a3-8d9a-f36b2f2585c9}|AddReferenceInModel|Add Reference In Model|0|Activity|1|0
+{4889a437-0b38-4aef-984c-9d335af344e1}|EditReferenceInModel|Edit Reference In Model|0|Activity|1|0
+{91012b6c-ddc2-44cb-acc4-651b324d6cf2}|DeleteReferenceInModel|Delete Reference In Model|0|Activity|1|0
+{ab5786d0-839a-4ed5-9419-4aefae7bf1e4}|AddDiscussionInModel|Add Discussion In Model|0|Activity|1|0
+{a6580116-8ced-4c03-b382-9bb000678fb9}|ReplyDiscussionInModel|Reply Discussion In Model|0|Activity|1|0
+{d501fade-5bae-45b0-b178-df063939730e}|DeleteDiscussionInModel|Delete Discussion In Model|0|Activity|1|0
+{4ea9c0f2-bc1f-4068-bedd-08a2c7234e6e}|MoveNodeInModel|Move Node In Model|0|Activity|1|0
+{ca7792f6-c5c4-40e4-aabe-f8a14bd324cf}|AddLinkInModel|Add Link In Model|0|Activity|1|0
+{ce7e26ca-aedb-4756-9a2e-cb1d4817b75e}|EditLinkInModel|Edit Link In Model|0|Activity|1|0
+{a6c51c6a-5cb2-48d4-aacb-4b9d760ba4a0}|DeleteLinkInModel|Delete Link In Model|0|Activity|1|0
+{16cd52e4-70a6-4106-9d0e-3476976c9b5f}|LinkNodeToRoleInModel|Link Node To Role In Model|0|Activity|1|0
+{9a4f6c38-a35c-407f-878c-898a11d9e2fb}|RemoveRoleLinkFromNodeInModel|Remove Role Link From Node In Model|0|Activity|1|0
+{4fbdbfa1-ae20-4bae-83a5-cce8dad7b7ea}|RemoveReferenceLinkFromNodeInModel|Remove Reference Link From Node In Model|0|Activity|1|0
+{5c26530e-d4ab-42de-ba16-d1ba6b819aeb}|ReparentInModel|Reparent  In Model|0|Activity|1|0
+{3215ecf8-31c0-4ea5-a2cf-40029eab9af7}|ReadConfigFileForCompile|Read Config File For Compile|0|Activity|1|0
+{48d61802-6b30-45b7-9716-53808b8fbdd3}|ModelCompile|Compile Domain Model|0|Activity|1|0
+{5657373f-55d7-4a8f-b5ce-07c9abf83451}|ActionPath|Action Path|0|Activity|0|0
+{009c9854-0fc3-4660-b1b0-d7dd7fb7f93f}|LinkNodeToReferenceInModel|Link Node To Reference In Model|0|Activity|1|0
+{bd88a395-3657-4fbc-85b7-e476b8a08ef5}|SetModelAsDefault|Set Model As Default|0|Activity|1|0
+{27ab4bea-52d1-4ed4-8974-24ec1f07a15a}|CreateNewDomainModel|Create New Domain Model|1|Activity|1|0
+{643f477f-8ee2-441c-aa66-c7e7186b13a3}|CreateNewDomainModelList|Create New Domain Model List|0|Activity|1|0
+{3c43caa2-237a-477d-bc09-7efe284a0186}|ExceptionInformation|Exception (If Any)|0|Context|0|0
+{62abae68-10b2-4e30-a7d3-239aa57dfdd0}|ExceptionDetails|Exception Details|0|Activity|0|0
+{a75aa2ed-508d-4b2b-b7d4-f2ee4c8838e4}|ProvideDomainModelList|Provide Domain Model List|0|Activity|1|0
+{1c9387e6-6581-450f-bbc9-91048fb9d3dd}|ReadDomainModelListFile|Read Domain Model List File|1|Activity|1|0
+{137cc60b-defc-4a8c-a389-154a788a0c00}|DomainModelListFile|Domain Model List File|0|Context|0|0
+{b6593252-e6f3-45af-8978-053d0691d3c6}|DomainModelListContent|Domain Model List Content|0|Activity|0|0
+{ead631b9-d047-4af2-a010-5ae9c8271a69}|UpdateModelResults|Update Model Results|0|Context|0|0
+{28cd7cff-b3f4-4be3-a9d5-84fd4ef18bec}|UpdateModelSuccess|Update Model Success|0|Activity|0|0
+{577a163a-0029-40f2-954b-5fb6552442a9}|UpdateModelExceptionDetails|Update Model Exception Details|0|Activity|0|0
+{7759309a-fd67-426e-908a-50280e778689}|FetchAllNodesFromTheRepository|Fetch all nodes from the repository|1|Activity|1|0
+{262e94ef-ef33-497b-a041-2ec37642920f}|ProvideNodeListToUI|Provide Node List to UI|0|Activity|1|0
+{80aeee31-d018-40f0-83fd-d9da6a9f43db}|NodeListInformation|Node List Information|0|Context|0|0
+{f47f1e9b-ccad-4101-8e53-4b31856af986}|NodeListContent|Node List Content|0|Activity|0|0
+{7e94a43e-bca7-4c89-b806-5f1714fc7a33}|PrepareNodeList|Prepare Node List|0|Activity|1|0
+{1ca6cffc-6d0a-486b-8b3b-5e2d74737406}|ProvideRoleNodeInformationToUI|Provide Role Node Information to UI|0|Activity|1|0
+{a82a1d7c-4de1-4d22-a892-160672298bd3}|RoleNodeListInformation|Role Node List Information|0|Context|0|0
+{326d1a6f-a643-4805-8fa7-240fc7c19017}|RoleNodeListContent|Role Node List Content|0|Activity|0|0
+{5179b365-a530-4fd9-ba1f-000b335a582e}|PrepareRoleNodeList|Prepare Role Node List|0|Activity|1|0
+{3031ab17-db8b-4296-bb0e-6c775b4b3248}|FetchAllRoleNodesFromRepository|Fetch All Role Nodes from Repository|1|Activity|1|0
+{3557cf62-fb68-4e99-a3c7-970ebe42964c}|RoleFilterContext|Role Filter Context|0|Context|0|0
+{3a681413-f23f-488b-90c1-780b6521c0dc}|AllRoles|All Roles|0|Activity|0|0
+{ba61c91d-6fc3-4d73-9a33-0de7a4a63118}|NodeFilterContext|Node Filter Context|0|Context|0|0
+{8b5069e3-d650-4cba-8892-335774a94fbc}|AllNodes|All Nodes|0|Activity|0|0
+{4d744c81-01e6-4efe-8200-884b9a4806ef}|ChildNodeListInformation|Child Node List Information|0|Context|0|0
+{2f47f0a9-b40a-4a01-8c49-c42558899788}|ChildNodeListContent|Child Node List Content|0|Activity|0|0
+{4b383eeb-626b-41ab-9c87-c6693df0c69f}|PrepareChildNodeList|Prepare Child Node List|0|Activity|1|0
+{8d923cbe-d717-44bb-b045-6058e8d3f6a2}|FetchAllChildNodesFromRepository|Fetch All Child Nodes from Repository|1|Activity|1|0
+{f930b93e-a3ca-4a59-a492-9de34db4cb55}|ParentNodeInformation|Parent Node Infomation To Filter Child Node|0|Context|0|0
+{502ce4ef-5c45-41fc-a4c1-512f56e6d469}|ParentNodeName|Parent Node Name|0|Activity|0|0
+{7e4ad038-df48-409b-8be8-79ecc2038ddd}|ParentNodeListInformation|Parent Node List Information|0|Context|0|0
+{2b3e7947-d8a8-4620-b116-c773907f5dd6}|ParentNodeListContent|Parent Node List Content|0|Activity|0|0
+{7d03807e-ac11-4201-997e-bc94228715bc}|PrepareParentNodeList|Prepare Parent Node List|0|Activity|1|0
+{b944caa9-fd67-433f-a31c-75515d7fda09}|FetchAllParentNodesFromRepository|Fetch All Parent Nodes From Repository|1|Activity|1|0
+{4741468e-f352-4f76-8443-d014dfdf562c}|ChildNodeInformation|Child Node Information To Filter Parent Node|0|Context|0|0
+{1fb12f7d-4f6e-470e-9324-a6941dc6e8d8}|ChildNodeName|Child Node Name|0|Activity|0|0
+{5bd631db-784a-46b7-a03d-f913e8f0d405}|CISLayoutInformation|CIS Layout Information|0|Context|0|0
+{08f7b7f1-8160-43fc-8426-90f730d758dc}|LayoutUIMLnew|Layout UIML|0|Activity|0|0
+{7862ddc0-35e4-45ed-b05d-f62664b92cf3}|HomeCISnew|Home CIS|0|Activity|0|0
+{cb6eef4f-3593-42a8-9ae4-afcfc78bc0c6}|PrepareCISLayoutInformation|Prepare CIS Layout Information|0|Activity|1|0
+{62d0e72f-8ff8-4604-bb5e-751a89b373ea}|FetchCISLayoutInformationFromRepository|Fetch CIS Layout Information From Repository|1|Activity|1|0
+{c774b033-4aa7-481d-9f4c-3eeb87b3f9f9}|CISNodeInformation|CIS Node Information|0|Context|0|0
+{ca376983-a648-4682-93fc-311f0c1f70a9}|CISNodeDisplayName|CIS Node Display Name|0|Activity|0|0
+{a37116a0-ca7f-4731-8a98-a71ecf47422e}|ManageCISInformationInModel|Manage CIS Information In Model|0|Activity|1|0
+{a267858e-31ff-4ddd-99a8-7e5d56d7ba46}|ProvideNodeInformationToUI|Provide Node Information To UI|0|Activity|1|0
+{66c528cb-dc6a-41fc-ad9f-acef2cf70146}|PrepareNodeInformation|Prepare Node Information|0|Activity|1|0
+{0f2f8ecf-e019-4761-84dd-03b88b2972dc}|FetchNodeInformationFromRepository|Fetch Node Information From Repository|1|Activity|1|0
+{f4a210b6-e105-4286-bec6-38b2eb3ebaa8}|ProvideDeleteLinkInformationToUI|Provide Delete Link Information To UI|0|Activity|1|0
+{69d30111-7469-401b-99b9-11a265a4e666}|PrepareDeleteLinkInformation|Prepare Delete Link Information|0|Activity|1|0
+{43eed43b-a38c-4bdf-9a3c-14e2c2cd3a6f}|FetchLinkInformationFromRepository|Fetch Link Information From Repository|1|Activity|1|0
+{fb76fb4c-2151-4128-a27f-1abb21f07795}|LinkInformation|Link Information|0|Context|0|0
+{be48d936-a4ea-47ca-bbcd-4c3b9c6f34a8}|LinkName|Link Name|0|Activity|0|0
+{fce12db6-f10f-4e73-8336-6f2181c4558f}|ProvideNodeDiscussionInformationToUI|Provide Node Discussion Information To UI|0|Activity|1|0
+{7cb9382e-96e8-4e1f-a2ff-e83fdf146e58}|PrepareNodeDiscussionList|Prepare Node Discussion List|0|Activity|1|0
+{097d7e84-b42d-469f-b88c-e73999ea6f06}|FetchAllNodeDiscussionsFromRepository|Fetch All Node Discussions from Repository|1|Activity|1|0
+{adfac29f-e6f3-4087-962b-15a21c9273c0}|NodeDiscussionListInformation|Node Discussion List Information|0|Context|0|0
+{a03609a5-1d50-4e5a-8b85-7ec84e5d8637}|NodeDiscussionListContent|Node Discussion List Content|0|Activity|0|0
+{6dc8b32f-58d3-4ebe-9e36-74bd9bd4f0cb}|AuthoringToolContextCluster|Authoring Tool Context Cluster|1|Activity|0|0
+{b366458c-52bc-49e0-af84-a84e17f0ab91}|FeedbackInformation|Feedback Information|0|Context|0|0
+{5cc7949a-b707-4a4e-9aa5-daf9b2bc07b8}|ActionSuccess|Result Of Action Performed|0|Activity|0|0
+{400c1e6a-19d6-409e-b5e2-221b46bf4bc3}|FeedbackErrorMessage|Details of error if any|0|Activity|0|0
+{8fd0db99-7999-410b-9883-45c831125c27}|OverlayUserInformation|Overlay User Information|0|Context|0|0
+{8e4f018b-4ab0-4113-b19b-0805103ecde3}|LoginName|Login Name|0|Activity|0|0
+{5abcf747-6050-4575-bf27-32f60b511a3d}|LoginPassword|Login Password|0|Activity|0|0
+{cf2b8012-7408-4c36-8583-68752254c4e8}|OverlayUserRepositoryInformation|Overlay User Repository Information|0|Context|0|0
+{b31a7388-15bd-4d30-8349-6de1ebce604b}|RepositoryFileName|Repository File Name|0|Activity|0|0
+{716b4649-4dee-422c-8547-5f1284cdd605}|RepositoryFilePath|Repository File Path|0|Activity|0|0
+{c2ce3699-310b-485a-b03a-7a04f82511be}|ProvideOverlayUserAuthenticationResultToUI|Provide Overlay User Authentication Result To UI|0|Activity|1|0
+{65cc8c7e-1022-4613-b8bd-8af19588c839}|AuthenticateOverlayUser|Authenticate Overlay User|1|Activity|1|0
+{41f8486e-3645-40d7-a660-c8726f6c0406}|ProvideOverlayUserListInformationToUI|Provide Overlay User List Information To UI|0|Activity|1|0
+{007d58f7-a947-479b-a555-8d29c1649bb9}|FetchAllOverlayUsersFromTheRepository|Fetch All Overlay Users From The Repository|1|Activity|1|0
+{a383cd90-9a44-4682-a47b-647061a60a31}|OverlayUserListInformation|Overlay User List Information|0|Context|0|0
+{fc4a073b-954b-465f-b39a-f926c515cd20}|OverlayUserListContent|Overlay User List Content|0|Activity|0|0
+{ad6b5758-c4ae-4116-aa3f-4b330ef4bbc7}|OverlayUserAuthenticationCISController|Design CIS for Overlay User Authentication|0|CIS|0|0
+{bdfed834-8fd0-4926-8a0a-56485d277073}|OverlayUserAuthenticationViewRegionCIS|Overlay User Authentication View will have a single region|0|CIS|0|0
+{bee1f552-9bd0-49c2-a2ad-83ad546081c9}|OverlayUserAuthenticationViewResources|Common Resources used in CIS for performing Overlay User Authentication|0|CIS|0|0
+{0fd7d1aa-383c-49f3-b280-c6946c96a18a}|IsAdmin|Is Admin|0|Activity|0|0
+{5c56437b-942e-4e08-8643-f097bd27c54c}|IsAdmin1|Is Admin|0|Activity|0|0
+{ffb63091-5626-4b9c-a252-ced776351100}|AdminUserId|Admin User Id|0|Activity|0|0

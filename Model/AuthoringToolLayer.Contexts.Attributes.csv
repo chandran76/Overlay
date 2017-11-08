@@ -1,0 +1,108 @@
+ContextUniqueName|Id|UniqueName|DisplayName|TypeName|Version
+DomainNode|{8ec872e4-3968-4337-9e2a-38bfc0c7d236}|DisplayName|Display Name|System.String|0
+DomainNode|{e7bf5484-b3ed-4252-b6bf-a8ea83cd8a35}|UniqueName|Unique Name|System.String|0
+DomainNode|{2660c538-3bcc-44f2-96b4-ccba7680e39a}|Goal|Goal|System.String|0
+DomainNode|{6e823860-e0d7-4802-84bc-ae7a239e034f}|AlertLevelChanges|Alert Level Changes|System.String|0
+DomainNode|{14877226-9665-46c0-a99f-b558f2dfb7d1}|ContextGuidelines|Context Guidelines|System.String|0
+DomainNode|{e060f65d-dd79-4347-870e-490fe26bd65a}|NotesForEndUser|Notes For End User|System.String|0
+DomainNode|{e16069e3-b7d7-43de-a436-0dd9b88410ce}|NodeDetailsByDomainExpert|Node Details By Domain Expert|System.String|0
+DomainNode|{3b070e70-7cf1-4155-be76-0185caa6368d}|NodeDetailsByModelIntegrator|Node Details By Model Integrator|System.String|0
+DomainNode|{c263e535-b1ea-419f-a721-2d481eb20601}|NodeScript|Node Script|System.String|0
+DomainNode|{73f02b93-22c4-45c2-96a9-7cfa79c1064b}|NodeScriptLanguage|Node Script Language|System.String|0
+DomainNode|{57b9619b-bd14-429c-8356-29659cc96022}|NodeType|Node Type|System.Int32|0
+DomainNode|{11219639-c513-44de-986f-a7fce5352ceb}|NodeTag|Node Tag|System.String|0
+SelectComment|{c6a68fae-601b-4088-8067-35fcf278204d}|CommentTitle|Comment Title|System.String|0
+SelectLink|{ec19a2fd-dad8-4921-b80c-715e68d943a4}|DisplayName5|Display Name|System.String|0
+SelectLink|{71ab6705-55a0-4ad5-bc87-0f065666c2d7}|LinkScript1|Link Script|System.String|0
+SelectLink|{27b9ff26-635a-4ca1-b698-c3d61c7eaa76}|UniqueName2|Unique Name|System.String|0
+SelectLink|{d400a7b6-93ca-4742-b6ef-1471553583b5}|LinkScriptLanguage1|Link Script Language|System.String|0
+SelectNode|{ecf5336f-eff1-4fed-9faf-6aee148d8c2b}|DisplayName1|Display Name|System.String|0
+EditOverlayRole|{ac4b11df-1110-487f-bd98-77e186b11550}|RoleName1|Role Name|System.String|0
+EditOverlayRole|{3d4c7784-ef43-4579-b247-3088323aa14d}|RoleDescription1|Role Description|System.String|0
+EditOverlayRole|{5c56437b-942e-4e08-8643-f097bd27c54c}|IsAdmin1|Is Admin|System.Boolean|0
+SelectOverlayRole|{e9bd7d98-853e-475a-aeb6-0a984f1a335d}|RoleName2|Role Name|System.String|0
+EditOverlayReference|{1863ef56-7bc8-4513-b3d3-102f5cde6d00}|FileName1|File Name|System.String|0
+EditOverlayReference|{307ae21c-b84f-49ac-b534-77fdb84ae34a}|IsGAC1|Is GAC|System.Boolean|0
+SelectOverlayReference|{b21867ac-59a9-432c-90fa-3e10f8bb3e9f}|FileName2|File Name|System.String|0
+SelectOverlayReference|{226db137-3827-4feb-83c3-272951dad879}|IsGAC2|Is GAC|System.Boolean|0
+Comment|{777a0be6-828e-404d-a4ca-84eba972205b}|Title|Title|System.String|0
+Comment|{c0860c8a-bc8b-45ce-ba6e-0a7ae19b9c19}|Author|Author|System.String|0
+Comment|{50e98894-fe29-47f7-94d6-a33c27df4083}|Role|Role|System.String|0
+Comment|{bbec2bfd-a8aa-4ad3-ae8a-71599ef21c6e}|Date|Date|System.DateTime|0
+Comment|{e34a3888-8e4d-46df-b3af-663c2e3512c3}|CommentDetails|Comment Details|System.String|0
+SelectSourceNode|{2c468ee5-fbb6-4b6c-be3b-2ba675485155}|SourceNodeDisplayName|Source Node Display Name|System.String|0
+SelectSourceNode|{d1d3d847-de71-43e3-8fe0-2368f6fe89ae}|SourceNodeUniqueName|Source Node Unique Name|System.String|0
+SelectTargetNode|{977f4293-471f-4de2-8baa-6b10d7984255}|TargetNodeDisplayName|Target Node Display Name|System.String|0
+SelectTargetNode|{6a9b84a2-00ff-42fa-927b-3b877717cf9e}|TargetNodeUniqueName|Target Node Unique Name|System.String|0
+SelectParentNode|{9fb12c88-32e0-414b-a230-552f956ef31d}|DisplayName3|Display Name|System.String|0
+SelectNodeForEdit|{1644f339-161a-4de6-89f2-32fb8776ae93}|DisplayName2|Display Name|System.String|0
+SelectNodeForEdit|{399e7fbc-85c9-4cec-9034-e69a347259dd}|UniqueName1|Unique Name|System.String|0
+SelectNodeForEdit|{46528b05-595e-4358-9c6d-07e6428b5af7}|Goal1|Goal|System.String|0
+SelectNodeForEdit|{1da67a24-da57-4db9-95f8-844d772cb461}|AlertLevelChanges1|Alert Level Changes|System.String|0
+SelectNodeForEdit|{e477e200-31be-4879-ac19-396fc62ccc2d}|ContextGuidelines1|Context Guidelines|System.String|0
+SelectNodeForEdit|{468229da-bfd1-4d10-a808-6bc74d4deba2}|NotesForEndUser1|Notes For End User|System.String|0
+SelectNodeForEdit|{96fc7737-b5ca-4bd3-b1ca-5d3751067b28}|NodeDetailsByDomainExpert1|Node Details By Domain Expert|System.String|0
+SelectNodeForEdit|{69c698be-51a7-4b42-85b2-29efacc2ecb2}|NodeDetailsByModelIntegrator1|Node Details By Model Integrator|System.String|0
+SelectNodeForEdit|{d13451f7-9c79-44d9-bd24-d715eb5fb7cd}|NodeScript1|Node Script|System.String|0
+SelectNodeForEdit|{a101c289-4818-4d12-a960-30c3c7f47329}|NodeScriptLanguage1|Node Script Language|System.String|0
+SelectNodeForEdit|{9bb178f5-3023-4db6-bad2-9c9ce03a4d83}|NodeType1|Node Type|System.Int32|0
+SelectNodeForEdit|{49a6aa57-f44e-400b-b895-f08cb9a5b7a5}|NodeTag1|Node Tag|System.String|0
+AddOverlayRole|{7c599476-e76e-4698-b4ca-5348ba5853cd}|RoleName|Role Name|System.String|0
+AddOverlayRole|{d784fffb-0389-4630-b17f-47d914f303ed}|RoleDescription|Role Description|System.String|0
+AddOverlayRole|{0fd7d1aa-383c-49f3-b280-c6946c96a18a}|IsAdmin|Is Admin|System.Boolean|0
+ReplyComment|{afea5fac-f6f9-4611-8dad-9983acc0e464}|ReplyTitle|Reply Title|System.String|0
+ReplyComment|{373fa811-5176-4808-9a9c-5d86a45074f5}|ReplyAuthor|Reply Author|System.String|0
+ReplyComment|{30a5551e-4f61-4d3d-b524-e70c37143ee2}|ReplyRole|Reply Role|System.String|0
+ReplyComment|{e8dfecd7-9817-4983-aa46-5ffb60799960}|ReplyDate|Reply Date|System.DateTime|0
+ReplyComment|{6dfbbacc-891a-4c24-a18a-5726d21e97d1}|ReplyCommentDetails|Reply Comment Details|System.String|0
+ReplyComment|{b134fadc-1dfc-49c9-b429-148f89e93719}|ReplyParentCommentId|Reply Parent Comment Id|System.Guid|0
+AddOverlayReference|{c330a69d-58b7-4e9d-9bb0-127a8ea200be}|FileName|File Name|System.String|0
+AddOverlayReference|{c1d8b9c1-08b3-47b5-bd90-118c305c7cdf}|IsGAC|Is GAC|System.Boolean|0
+SelectDirection|{8b688fb9-6b99-4e51-93b3-ec90c071214d}|Direction|Direction in which the node should be moved|System.String|0
+SelectChildNode|{c18807e2-9ee6-4bf6-b5ec-94ef20686fe8}|DisplayName4|Display Name|System.String|0
+EditOverlayLink|{7190c88b-7873-4036-9872-0737e66f40d7}|LinkScript|Link Script|System.String|0
+EditOverlayLink|{68a65e90-53b2-41c2-9e5f-384a94be0170}|ScriptingLanguage|Scripting Language|System.String|0
+SelectTargetPath|{0749ecf9-c578-48b1-bd66-7bda0be4e46e}|TargetPath|Target Path|System.String|0
+RootNode|{cc34faf9-2cd9-41f7-a983-7ed87dacebf1}|RootNodeDisplayName|Root Node Display Name|System.String|0
+RootNode|{d484eeab-5642-4b20-9251-6e07559daa19}|RootNodeType|Root Node Type|System.Int32|0
+CISLayout|{0cc7550a-92ca-4cd3-bf58-9460c92ab676}|HomeCIS1|Home CIS|System.Boolean|0
+CISLayout|{3498a329-2d5e-4221-a98b-d2687b5a1ef9}|LayoutUIML1|Layout UIML|System.String|0
+CISLayout|{96a66983-572f-4446-962c-e12f0950cbb9}|CISNodeId|CIS Node Id|System.Guid|0
+DomainModelFile|{591df155-55ed-4b7b-a0f8-4674ca1e1785}|DomainModelName1|Domain Model Name|System.String|0
+DomainModelFile|{3e5b14ae-7b92-4676-8bdc-52b47262ff65}|DomainModelFileName1|Domain Model File Name|System.String|0
+ReparentNode|{0e927286-d5a6-40f1-a8b1-dc7fa684defb}|OldParentId|Old Parent Id|System.Guid|0
+ReparentNode|{63136f5d-ff6a-48f4-b126-a4f7939eae31}|ChildId|Child Id|System.Guid|0
+ReparentNode|{bacd7f46-4cb9-4647-8b53-44912d802a10}|NewParentId|New Parent Id|System.Guid|0
+DomainModel|{85208f61-1cea-48ae-993c-ae94ba68ac16}|DomainName|Domain Name|System.String|0
+DomainModel|{9c7e5aa7-0ee8-4ab8-ba60-833eb418cad6}|LayerName|Layer Name|System.String|0
+DomainModel|{6b756785-ca23-437b-bcc5-0c4f43a9779d}|NewDomainModelFileName|File Name|System.String|0
+DomainModel|{69769d68-a1ef-4eff-a521-5ee59e403d39}|RootNodeDisplayName1|Root Node Display Name|System.String|0
+DomainModel|{40a7ad65-d7b8-44d1-ae76-8b0ddfc9ef5c}|RootNodeUniqueName|Root Node Unique Name|System.String|0
+DomainModel|{ffb63091-5626-4b9c-a252-ced776351100}|AdminUserId|Admin User Id|System.Guid|0
+PlatformDetails|{e9c0f0d7-c134-4b2a-8f82-6bc9ea2f8d34}|PlatformBasePath|Platform Base Path|System.String|0
+PlatformDetails|{5657373f-55d7-4a8f-b5ce-07c9abf83451}|ActionPath|Action Path|System.String|0
+ModelContext|{19e52952-3805-440a-869b-9e5bb8141b74}|ModelContent|Model Content|System.String|0
+ExceptionInformation|{62abae68-10b2-4e30-a7d3-239aa57dfdd0}|ExceptionDetails|Exception Details|System.String|0
+DomainModelListFile|{b6593252-e6f3-45af-8978-053d0691d3c6}|DomainModelListContent|Domain Model List Content|System.String|0
+UpdateModelResults|{28cd7cff-b3f4-4be3-a9d5-84fd4ef18bec}|UpdateModelSuccess|Update Model Success|System.Boolean|0
+UpdateModelResults|{577a163a-0029-40f2-954b-5fb6552442a9}|UpdateModelExceptionDetails|Update Model Exception Details|System.String|0
+NodeListInformation|{f47f1e9b-ccad-4101-8e53-4b31856af986}|NodeListContent|Node List Content|System.String|0
+RoleNodeListInformation|{326d1a6f-a643-4805-8fa7-240fc7c19017}|RoleNodeListContent|Role Node List Content|System.String|0
+RoleFilterContext|{3a681413-f23f-488b-90c1-780b6521c0dc}|AllRoles|All Roles|System.Boolean|0
+NodeFilterContext|{8b5069e3-d650-4cba-8892-335774a94fbc}|AllNodes|All Nodes|System.Boolean|0
+ChildNodeListInformation|{2f47f0a9-b40a-4a01-8c49-c42558899788}|ChildNodeListContent|Child Node List Content|System.String|0
+ParentNodeInformation|{502ce4ef-5c45-41fc-a4c1-512f56e6d469}|ParentNodeName|Parent Node Name|System.String|0
+ParentNodeListInformation|{2b3e7947-d8a8-4620-b116-c773907f5dd6}|ParentNodeListContent|Parent Node List Content|System.String|0
+ChildNodeInformation|{1fb12f7d-4f6e-470e-9324-a6941dc6e8d8}|ChildNodeName|Child Node Name|System.String|0
+CISLayoutInformation|{08f7b7f1-8160-43fc-8426-90f730d758dc}|LayoutUIMLnew|Layout UIML|System.String|0
+CISLayoutInformation|{7862ddc0-35e4-45ed-b05d-f62664b92cf3}|HomeCISnew|Home CIS|System.Boolean|0
+CISNodeInformation|{ca376983-a648-4682-93fc-311f0c1f70a9}|CISNodeDisplayName|CIS Node Display Name|System.String|0
+LinkInformation|{be48d936-a4ea-47ca-bbcd-4c3b9c6f34a8}|LinkName|Link Name|System.String|0
+NodeDiscussionListInformation|{a03609a5-1d50-4e5a-8b85-7ec84e5d8637}|NodeDiscussionListContent|Node Discussion List Content|System.String|0
+FeedbackInformation|{5cc7949a-b707-4a4e-9aa5-daf9b2bc07b8}|ActionSuccess|Result Of Action Performed|System.Boolean|0
+FeedbackInformation|{400c1e6a-19d6-409e-b5e2-221b46bf4bc3}|FeedbackErrorMessage|Details of error if any|System.String|0
+OverlayUserInformation|{8e4f018b-4ab0-4113-b19b-0805103ecde3}|LoginName|Login Name|System.String|0
+OverlayUserInformation|{5abcf747-6050-4575-bf27-32f60b511a3d}|LoginPassword|Login Password|System.String|0
+OverlayUserRepositoryInformation|{b31a7388-15bd-4d30-8349-6de1ebce604b}|RepositoryFileName|Repository File Name|System.String|0
+OverlayUserRepositoryInformation|{716b4649-4dee-422c-8547-5f1284cdd605}|RepositoryFilePath|Repository File Path|System.String|0
+OverlayUserListInformation|{fc4a073b-954b-465f-b39a-f926c515cd20}|OverlayUserListContent|Overlay User List Content|System.String|0

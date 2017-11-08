@@ -1,0 +1,47 @@
+Id|UniqueName|DisplayName|HasPredictivePattern|DataValidity|Version
+{403c0c68-d166-41df-a76e-749c300686f2}|DomainNode|Domain Node|0|-1|0
+{3600b892-ae49-4fbf-b9ed-320745f59af8}|SelectComment|Select Comment|0|0|0
+{5b1070df-bf14-49ef-b462-ee35172b99f2}|SelectLink|Select Link|0|0|0
+{047cc79d-c26b-4571-a202-e25ffc35147b}|SelectNode|Select Node|0|0|0
+{8df96ebe-f8c5-41e1-9a50-80943a13f3d0}|EditOverlayRole|Edit Overlay Role|0|0|0
+{db147246-cddb-4d17-a2b2-2f8129addcbc}|SelectOverlayRole|Select Overlay Role|0|0|0
+{d0a1b5c3-0997-49f4-adc8-e09307578648}|EditOverlayReference|Edit Overlay Reference|0|0|0
+{fd197896-e230-4407-a318-46897bb1073a}|SelectOverlayReference|Select Overlay Reference|0|0|0
+{297e3666-d413-45ec-a67c-b5f2bb45d795}|Comment|Comment|0|-1|0
+{a72a1cc0-bfe5-4ca0-aecb-a9fed8bd3bbe}|SelectSourceNode|Select Source Node|0|0|0
+{ad2b58a8-1dd7-4837-ae8a-50e3bd3ef241}|SelectTargetNode|Select Target Node|0|0|0
+{8f45b62b-2d48-426d-8d74-16398998f702}|SelectParentNode|Select Parent Node|0|0|0
+{7857db70-fb51-407f-8775-f98d21ce5984}|SelectNodeForEdit|Select Node For Edit|0|0|0
+{09f1082c-d2ba-41bc-804b-75ef5b541c5c}|AddOverlayRole|Add Overlay Role|0|-1|0
+{55eab45f-3446-41ef-bcbd-3562ad02bfcd}|ReplyComment|Reply Comment|0|0|0
+{54241c4c-baea-496f-9c7b-447a1b83be9e}|AddOverlayReference|Add Overlay Reference|0|-1|0
+{a0d780aa-9abb-4b4b-bd6b-112fc2c391cb}|SelectDirection|Select Direction|1|-1|0
+{68befe40-43be-4ca4-b855-61aa09eafd87}|SelectChildNode|Select Child Node|0|0|0
+{14137541-4816-4948-95b4-feb0d14d5988}|EditOverlayLink|Edit Overlay Link|0|-1|0
+{8133587f-a031-46f4-803e-988daa207076}|SelectTargetPath|Select path to save the new build|0|-1|0
+{047b6975-9f1e-41ae-abe0-127b2bcf906a}|RootNode|Root Node|0|0|0
+{7a911f79-07d5-4bc3-afd4-aca20739926c}|CISLayout|CIS Layout|0|-1|0
+{c2145d55-e834-48a7-9988-cace313dcde4}|DomainModelFile|Domain Model File|0|-1|0
+{6253e371-87c2-451b-baf3-b9713759a247}|ReparentNode|Reparent Node|0|-1|0
+{f9ffab46-4ebf-48fc-b3c1-25861ee9b345}|DomainModel|Domain Model|0|-1|0
+{69515460-42a9-4428-a812-23eca6f83411}|PlatformDetails|Platform Details|0|-1|0
+{111f74fb-5ae1-4823-8d68-f6c1925c7c43}|ModelContext|Model Context|0|-1|0
+{3c43caa2-237a-477d-bc09-7efe284a0186}|ExceptionInformation|Exception (If Any)|0|-1|0
+{137cc60b-defc-4a8c-a389-154a788a0c00}|DomainModelListFile|Domain Model List File|0|0|0
+{ead631b9-d047-4af2-a010-5ae9c8271a69}|UpdateModelResults|Update Model Results|0|0|0
+{80aeee31-d018-40f0-83fd-d9da6a9f43db}|NodeListInformation|Node List Information|0|0|0
+{a82a1d7c-4de1-4d22-a892-160672298bd3}|RoleNodeListInformation|Role Node List Information|0|0|0
+{3557cf62-fb68-4e99-a3c7-970ebe42964c}|RoleFilterContext|Role Filter Context|0|0|0
+{ba61c91d-6fc3-4d73-9a33-0de7a4a63118}|NodeFilterContext|Node Filter Context|0|0|0
+{4d744c81-01e6-4efe-8200-884b9a4806ef}|ChildNodeListInformation|Child Node List Information|0|0|0
+{f930b93e-a3ca-4a59-a492-9de34db4cb55}|ParentNodeInformation|Parent Node Infomation To Filter Child Node|0|0|0
+{7e4ad038-df48-409b-8be8-79ecc2038ddd}|ParentNodeListInformation|Parent Node List Information|0|0|0
+{4741468e-f352-4f76-8443-d014dfdf562c}|ChildNodeInformation|Child Node Information To Filter Parent Node|0|0|0
+{5bd631db-784a-46b7-a03d-f913e8f0d405}|CISLayoutInformation|CIS Layout Information|0|0|0
+{c774b033-4aa7-481d-9f4c-3eeb87b3f9f9}|CISNodeInformation|CIS Node Information|0|0|0
+{fb76fb4c-2151-4128-a27f-1abb21f07795}|LinkInformation|Link Information|0|0|0
+{adfac29f-e6f3-4087-962b-15a21c9273c0}|NodeDiscussionListInformation|Node Discussion List Information|0|0|0
+{b366458c-52bc-49e0-af84-a84e17f0ab91}|FeedbackInformation|Feedback Information|0|0|0
+{8fd0db99-7999-410b-9883-45c831125c27}|OverlayUserInformation|Overlay User Information|0|0|0
+{cf2b8012-7408-4c36-8583-68752254c4e8}|OverlayUserRepositoryInformation|Overlay User Repository Information|0|0|0
+{a383cd90-9a44-4682-a47b-647061a60a31}|OverlayUserListInformation|Overlay User List Information|0|0|0
