@@ -1,0 +1,10 @@
+{
+	"nodes": [
+		{"id": "1.1.1", "title": "Child 1.1.1", "parentid": "1.1"},
+		{"id": "1.1.2", "title": "Child 1.1.2", "parentid": "1.1"}
+	],
+	"edges": [
+		{"id": "L1.1.1", "source": "1.1.1", "target": "1.1"},
+		{"id": "L1.1.2", "source": "1.1.2", "target": "1.1"}
+	]
+}

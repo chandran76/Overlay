@@ -1,0 +1,13 @@
+Action|Source|Group|FileName
+Ref|GAC||mscorlib.dll
+Ref|GAC||System.dll
+Ref|GAC||System.Core.dll
+Ref|GAC||System.Collections.dll
+Ref|GAC||System.Data.dll
+Ref|GAC||System.Xml.dll
+Ref|GAC||System.Xml.Linq.dll
+Ref|GAC||System.Configuration.dll
+Ref|3P|Ulysses|Ulysses.Overlay.v4.Interfaces.dll
+Ref|3P|Ulysses|Ulysses.Overlay.Facilities.DomainModelling.Interfaces.dll
+Ref|3P|Ulysses|Ulysses.Overlay.v4.Modelling.dll
+Ref|3P|Ulysses|Ulysses.Overlay.v4.Building.Interface.dll

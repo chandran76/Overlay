@@ -1,0 +1,7 @@
+{
+	"clusters": [
+		{"id": "0", "title": "main" },
+		{"id": "1", "title": "superimposed_cluster"}
+	],
+	"default_cluster" : "0"
+}

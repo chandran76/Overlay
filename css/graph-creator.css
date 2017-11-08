@@ -1,0 +1,269 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+p{ 
+     text-align: center; 
+     overflow: overlay;
+     position: relative;
+}
+
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(248, 248, 248)
+}
+
+#toolbox{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    border: 2px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 1em;
+    z-index: 5;
+}
+
+#toolbox input{
+    width: 30px;
+    opacity: 0.4;
+	margin: 2px;
+}
+#toolbox input:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#search-toolbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    border: 2px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 1em;
+    z-index: 5;
+}
+
+#search-toolbox input[type=text]{
+    border: 2px solid #CCCCCC;
+	border-radius: 5px;
+	display: block;
+	float: left;	
+	margin: 2px 0 2px 2px;
+}
+
+#search-toolbox input[type=image]{
+	width: 17px;
+	opacity: 0.4;
+	display: block;
+	float: left;
+	height: 17px;
+	margin: 1px 4px -2px 2px;
+	border: 2px solid #9e9a9a;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+#mode-toolbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    border: 2px solid #CCCCCC;
+    border-radius: 25px;
+    padding: 0.7em;
+    z-index: 5;
+}
+
+#viewMode{
+	height: 20px;
+	width: 20px;
+	opacity: 0.4;
+	margin: 0px;
+	padding: 0px;
+	 background-size: 20px 20px;
+}
+
+.viewMode-edit{
+	background-image: url(../images/icons/edit-icon.png);
+}
+
+.viewMode-bowtie{
+	background-image: url(../images/icons/bowtie-icon.png);
+}
+
+#viewMode:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#hidden-file-upload{
+    display: none;
+}
+
+#download-input{
+    margin: 0 0.5em;
+}
+
+.conceptG text{
+    pointer-events: none;
+}
+
+marker{
+    fill: #333;
+}
+
+g.conceptG circle{
+    fill: #F6FBFF;
+    stroke: #333;
+    stroke-width: 2px;
+}
+
+g.conceptG:hover circle{
+    fill: rgb(200, 238, 241);
+}
+
+g.selected circle{
+    /*fill: rgb(250, 232, 255);*/
+    fill: rgb(229, 172, 247);
+	stroke: rgb(204, 0, 0);
+}
+
+g.highlight circle{
+    fill: rgb(133, 235, 142);
+}
+
+g.selected:hover circle{
+    /*fill: rgb(250, 232, 255);*/
+    fill: rgb(229, 172, 247);
+}
+
+path.link {
+    fill: none;
+    stroke: #333;
+    stroke-width: 6px;
+    cursor: default;
+}
+
+path.link:hover{
+    stroke: rgb(204, 0, 0);
+}
+
+path.affectedlink:hover{
+    stroke: rgb(204, 0, 0);
+}
+
+g.connect-node circle{
+    fill: #BEFFFF;
+}
+
+path.link.hidden{
+    stroke-width: 0;
+}
+
+path.link.selected {
+    stroke: rgb(204, 0, 0);
+}
+
+path.affectedlink.selected {
+    stroke: rgb(204, 0, 0);
+}
+
+
+svg {
+  background-color: #FFF;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+path.link {
+  fill: none;
+  stroke: #000;
+  stroke-width: 4px;
+  cursor: default;
+}
+
+
+svg:not(.active):not(.ctrl) path.link, svg:not(.active):not(.ctrl) path.affectedlink   {
+  cursor: pointer;
+}
+
+
+path.link.selected {
+  stroke-dasharray: 0;  /*10,2;*/
+}
+
+path.link.dragline {
+  pointer-events: none;
+}
+
+path.link.hidden {
+  stroke-width: 0;
+}
+
+circle.node, g.conceptG circle {
+  stroke-width: 1.5px;
+  cursor: pointer;
+}
+
+circle.node.reflexive {
+  stroke: #000 !important;
+  stroke-width: 2.5px;
+}
+
+text {
+  font: 12px sans-serif;
+  pointer-events: none;
+}
+
+text.id {
+  text-anchor: middle;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.lasso path {
+  stroke: rgb(80,80,80);
+  stroke-width:2px;
+}
+
+.lasso .drawn {
+  fill-opacity:.05 ;
+}
+
+.lasso .loop_close {
+  fill:none;
+  stroke-dasharray: 4,4;
+}
+
+.lasso .origin {
+  fill:#3399FF;
+  fill-opacity:.5;
+}
+
+.not_possible {
+  fill:rgb(200,200,200);
+}
+
+.possible {
+  fill:#EC888C;
+}

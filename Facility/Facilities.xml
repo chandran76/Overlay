@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Facilities xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Facility>
+    <Name>DomainModeler</Name>
+    <Description>Overlay Domain Modeler Facility</Description>
+    <Assembly>Ulysses.Overlay.Facilities.DomainModelling.dll</Assembly>
+    <AssemblyType>Ulysses.Overlay.Facilities.DomainModelling.DomainModeler</AssemblyType>
+    <AutoLoad />
+  </Facility>
+</Facilities> 
