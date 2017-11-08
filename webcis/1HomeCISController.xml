@@ -1,0 +1,7 @@
+<Layout Size="784, 557">
+	<Row RegionUniqueName="MainDashboardToolbarRegionCIS" Size="116" Fixed = "true"/>
+	<Row>
+		<Col Size = "70%" RegionUniqueName="DomainNodesMapViewRegionCIS" />
+		<Col RegionUniqueName="NodeInformationRegionMapViewCIS" />
+	</Row>
+</Layout>

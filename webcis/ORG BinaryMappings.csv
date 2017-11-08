@@ -1,0 +1,11 @@
+UniqueName|AssemblyName|AssemblyTypeName
+EUMainDashboardCISController|EUMainDashboardCISController.js|scripts/EUMainDashboardCISController.js
+EUMainDashBoardToolbarRegion|EUMainDashBoardToolbarRegion.js|scripts/EUMainDashBoardToolbarRegion.js
+EUNodeAlertsRegion|EUNodeAlertsRegion.js|scripts/EUNodeAlertsRegion.js
+EUNodeInformationRegion|EUNodeInformationRegion.js|scripts/EUNodeInformationRegion.js
+EUNodeTimelineRegion|EUNodeTimelineRegion.js|scripts/EUNodeTimelineRegion.js
+EUNodesMapViewRegion|EUNodesMapViewRegion.js|scripts/EUNodesMapViewRegion.js
+EUMainDashBoardResources|Ulysses.Overlay.EndUser.UI.dll|Ulysses.Overlay.EndUser.UI.EUMainDashBoardResources
+EUNodeActionCISController|EUNodeActionCISController.js|scripts/EUNodeActionCISController.js
+EUNodeActionRegion|EUNodeActionRegion.js|scripts/EUNodeActionRegion.js
+EUNodeActionResources|Ulysses.Overlay.EndUser.UI.dll|Ulysses.Overlay.EndUser.UI.EUNodeActionResources
