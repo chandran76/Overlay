@@ -1,0 +1,23 @@
+<Layout Theme = "Office 2010 Blue" Size="784, 557" Name = "Overlay V4 - End User UI Template">
+	
+	<Row RegionUniqueName="EUMainDashBoardToolbarRegion" Size="18%" Fixed = "true"/>
+	
+	<Row Size = "80%">
+		
+		<Col Size = "60%" >
+			
+			<Row Size = "70%" RegionUniqueName="EUNodesMapViewRegion" />
+							<Row Size = "30%" RegionUniqueName="EUNodeInformationRegion" />	
+		
+		</Col>			
+		
+		<Col Size = "40%" >
+			
+			<Row Size = "70%" RegionUniqueName="EUNodeAlertsRegion" />
+							<Row Size = "30%" RegionUniqueName="EUNodeTimelineRegion" />
+		
+		</Col>					
+	
+	</Row>
+
+</Layout>
