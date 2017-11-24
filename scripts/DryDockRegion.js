@@ -72,7 +72,11 @@
             //parentDiv.addEventListener("table-initialize", PopulateTimeline);
             parentDiv.innerHTML += header;
             parentDiv.innerHTML += tbl;
-
+	    
+	    var jobstable = document.getElementById('jobs');
+            jobstable.data = [];
+	
+		
             PostPredictivePatternRequest("Overlay", "SessionsList", Resources.POPULATE_TRACKING_INFO, true, "{00000000-0000-0000-0000-000000000000}");
 
         },
