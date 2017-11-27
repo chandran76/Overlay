@@ -87,7 +87,7 @@
 				},
 				{
 					"jobdetails": "HG1 : GRIT BLASTING TOPSIDE GRADE",
-					"value": "",
+					"value": "GRIT BLASTING TOPSIDE GRADE",
 					"colA": "",
 					"colB": "",
 					"colC": "",
@@ -97,7 +97,7 @@
 				},
 				{
 					"jobdetails": "HG2 : GRIT BLASTING TOPSIDE AREA",
-					"value": "",
+					"value": "GRIT BLASTING TOPSIDE AREA",
 					"colA": "",
 					"colB": "",
 					"colC": "",
@@ -107,7 +107,7 @@
 				},
 				{
 					"jobdetails": "HG3 : GRIT BLASTING BOOT TOP GRADE",
-					"value": "",
+					"value": "GRIT BLASTING BOOT TOP GRADE",
 					"colA": "",
 					"colB": "",
 					"colC": "",
@@ -117,7 +117,7 @@
 				},
 				{
 					"jobdetails": "HG4 : GRIT BLASTING BOOTTOP AREA",
-					"value": "",
+					"value": "GRIT BLASTING BOOTTOP AREA",
 					"colA": "",
 					"colB": "",
 					"colC": "",
@@ -127,7 +127,7 @@
 				},
 				{
 					"jobdetails": "HG5 : GRIT BLASTING VERTICAL BOTTOM AREA",
-					"value": "",
+					"value": "GRIT BLASTING VERTICAL BOTTOM AREA",
 					"colA": "",
 					"colB": "",
 					"colC": "",
@@ -147,7 +147,7 @@
 				},
 				{
 					"jobdetails": "TH1 : HULL SECTION THICKNESS GUAGE JOB DESCRIPTION",
-					"value": "",
+					"value": "HULL SECTION THICKNESS GUAGE JOB DESCRIPTION",
 					"colA": "",
 					"colB": "",
 					"colC": "",
@@ -157,7 +157,7 @@
 				},
 				{
 					"jobdetails": "TH2 : CARGO HOLD THICKNESS GUAGING JOB DESCRIPTION",
-					"value": "",
+					"value": "CARGO HOLD THICKNESS GUAGING JOB DESCRIPTION",
 					"colA": "",
 					"colB": "",
 					"colC": "",
@@ -167,7 +167,7 @@
 				},
 				{
 					"jobdetails": "TH3 : OTHER SECTIONS THICKNESS GUAGING JOB DESCRIPTION",
-					"value": "",
+					"value": "OTHER SECTIONS THICKNESS GUAGING JOB DESCRIPTION",
 					"colA": "",
 					"colB": "",
 					"colC": "",
