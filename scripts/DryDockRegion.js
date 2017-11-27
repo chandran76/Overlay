@@ -181,8 +181,44 @@
 
 		for (i = 0; i < elements.length; i++) {
 			elements[i].setAttribute("contenteditable", "true");
+			//add data label attribute
+			switch (elements[i].dataset.index)
+			{
+				case "2":
+					elements[i].setAttribute("data-label", "Unit");
+					break;
+				case "3":
+					elements[i].setAttribute("data-label", "Unit Cost");
+					break;
+				case "4":
+					elements[i].setAttribute("data-label", "Currency");
+					break;
+				case "5":
+					elements[i].setAttribute("data-label", "Discount");
+					break;
+				case "6":
+					elements[i].setAttribute("data-label", "Total Cost");
+					break;
+				case "7":
+					elements[i].setAttribute("data-label", "Comments");
+					break;
+			}
 		}
-
+		
+		//add data label attribute for 1 and 2nd columns
+		var elements = document.querySelectorAll("#jobs td[data-index='0'], #jobs td[data-index='1']");
+		for (i = 0; i < elements.length; i++) {
+			switch (elements[i].dataset.index)
+			{
+				case "0":
+					elements[i].setAttribute("data-label", "Job Details");
+					break;
+				case "1":
+					elements[i].setAttribute("data-label", "Value");
+					break;
+			}
+		}
+		
 		var trs = $("td[data-index='1']").filter(function () {
 			return $(this).text() == "";
 		}).closest("tr");
