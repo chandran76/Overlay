@@ -177,6 +177,30 @@
 				},
 			];
 	
+	    var elements = document.querySelectorAll("#jobs td[data-index='2'], #jobs td[data-index='3'], #jobs td[data-index='4'], #jobs td[data-index='5'], #jobs td[data-index='6'], #jobs td[data-index='7']");
+
+		for (i = 0; i < elements.length; i++) {
+			elements[i].setAttribute("contenteditable", "true");
+		}
+
+		var trs = $("td[data-index='1']").filter(function () {
+			return $(this).text() == "";
+		}).closest("tr");
+
+		for (i = 0; i < trs.length; i++) {
+			var td = trs[i].querySelector("td[data-index='0']")
+			td.style.color = "blue";
+			td.style.width = "40%";
+		}
+
+		trs = $("td[data-index='1']").filter(function () {
+			return $(this).text() !== "";
+		}).closest("tr");
+
+		for (i = 0; i < trs.length; i++) {
+			var td = trs[i].querySelector("td[data-index='0']")
+			td.style = "padding-left:40px;width:40%;";
+		}	
 		
             //PostPredictivePatternRequest("Overlay", "SessionsList", Resources.POPULATE_TRACKING_INFO, true, "{00000000-0000-0000-0000-000000000000}");
 
