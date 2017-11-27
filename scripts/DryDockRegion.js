@@ -74,10 +74,111 @@
             parentDiv.innerHTML += tbl;
 	    
 	    var jobstable = document.getElementById('jobs');
-            jobstable.data = [];
+            jobstable.data = [
+				{
+					"jobdetails": "HULL GRIT BLASTING JOBS",
+					"value": "",
+					"colA": "",
+					"colB": "",
+					"colC": "",
+					"colD": "",
+					"colE": "",
+					"colF": ""
+				},
+				{
+					"jobdetails": "HG1 : GRIT BLASTING TOPSIDE GRADE",
+					"value": "",
+					"colA": "",
+					"colB": "",
+					"colC": "",
+					"colD": "",
+					"colE": "",
+					"colF": ""
+				},
+				{
+					"jobdetails": "HG2 : GRIT BLASTING TOPSIDE AREA",
+					"value": "",
+					"colA": "",
+					"colB": "",
+					"colC": "",
+					"colD": "",
+					"colE": "",
+					"colF": ""
+				},
+				{
+					"jobdetails": "HG3 : GRIT BLASTING BOOT TOP GRADE",
+					"value": "",
+					"colA": "",
+					"colB": "",
+					"colC": "",
+					"colD": "",
+					"colE": "",
+					"colF": ""
+				},
+				{
+					"jobdetails": "HG4 : GRIT BLASTING BOOTTOP AREA",
+					"value": "",
+					"colA": "",
+					"colB": "",
+					"colC": "",
+					"colD": "",
+					"colE": "",
+					"colF": ""
+				},
+				{
+					"jobdetails": "HG5 : GRIT BLASTING VERTICAL BOTTOM AREA",
+					"value": "",
+					"colA": "",
+					"colB": "",
+					"colC": "",
+					"colD": "",
+					"colE": "",
+					"colF": ""
+				},
+				{
+					"jobdetails": "THICKNESS GAUGING JOBS",
+					"value": "",
+					"colA": "",
+					"colB": "",
+					"colC": "",
+					"colD": "",
+					"colE": "",
+					"colF": ""
+				},
+				{
+					"jobdetails": "TH1 : HULL SECTION THICKNESS GUAGE JOB DESCRIPTION",
+					"value": "",
+					"colA": "",
+					"colB": "",
+					"colC": "",
+					"colD": "",
+					"colE": "",
+					"colF": ""
+				},
+				{
+					"jobdetails": "TH2 : CARGO HOLD THICKNESS GUAGING JOB DESCRIPTION",
+					"value": "",
+					"colA": "",
+					"colB": "",
+					"colC": "",
+					"colD": "",
+					"colE": "",
+					"colF": ""
+				},
+				{
+					"jobdetails": "TH3 : OTHER SECTIONS THICKNESS GUAGING JOB DESCRIPTION",
+					"value": "",
+					"colA": "",
+					"colB": "",
+					"colC": "",
+					"colD": "",
+					"colE": "",
+					"colF": ""
+				},
+			];
 	
 		
-            PostPredictivePatternRequest("Overlay", "SessionsList", Resources.POPULATE_TRACKING_INFO, true, "{00000000-0000-0000-0000-000000000000}");
+            //PostPredictivePatternRequest("Overlay", "SessionsList", Resources.POPULATE_TRACKING_INFO, true, "{00000000-0000-0000-0000-000000000000}");
 
         },
 
